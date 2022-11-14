@@ -67,10 +67,10 @@
 
 @media(max-width: 991px) {
     #nav{
-        background-color: #192a56 !important;
+        background-color: #000 !important;
     }
     .classy-navbar .classy-menu{
-        background-color: #192a56 !important;
+        background-color: #000 !important;
     }
     .classynav>ul>li>a{
         background-color: transparent !important;

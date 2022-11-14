@@ -52,9 +52,9 @@ let HomeDemo2 = () => {
         <div className="clearfix" />
         <SecOurServices data={service_single_content} />
         <SecDistribution img={HomeDemo2Allocation} data={TokenText} />
-        <SecOurRoadmap data={timelineInfo} img={HomeDemo2BgRoadmap} />
+         <SecOurRoadmap data={timelineInfo} img={HomeDemo2BgRoadmap} />
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
-        <SecTeam data={TeamMember} /> 
+        <SecTeam data={TeamMember} />    
       </div>
     </>
   )

@@ -270,6 +270,8 @@
         left: -moz-calc(45vw + 8px);
         left: calc(45vw + 8px);
     }
+
+    
     .section_5-content {
         position: relative;
     }
