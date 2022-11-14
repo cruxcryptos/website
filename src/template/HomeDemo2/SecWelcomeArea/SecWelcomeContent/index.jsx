@@ -18,7 +18,7 @@ function SecWelcomeContent({ img }) {
         <div className="logomaincrux">
           <img className="logomaincruximage" src={mainlogo} alt="logocrux" />
         </div>
-        <h1 className="hero-title">P2E OPEN WORLD</h1>
+        <h1 className="hero-title">P2E OPEN WORLD 2</h1>
         <p className="hero-desc">
           $CRUX powers a Survival MMORPG Game with a token-based economy
           (Play-to-Earn) system on Binance Smart Chain. The enemy forces are
