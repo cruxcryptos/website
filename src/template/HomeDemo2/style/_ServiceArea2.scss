@@ -1,0 +1,63 @@
+/* ##### Service Area CSS ##### */
+
+.HomeDemo2 .service_single_content {
+    position: relative;
+    z-index: 1;
+    padding: 30px 20px 15px;
+    background: #030304f0;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 35px 30px;
+    transition: 350ms ease;
+    position: relative;
+    z-index: 55;
+    -webkit-box-shadow: -1px 2px 30px -2px rgba(175,54,54,1);
+    -moz-box-shadow: -1px 2px 30px -2px rgba(175,54,54,1);
+    box-shadow: -1px 2px 30px -2px rgba(175,54,54,1);
+}
+
+.HomeDemo2 .service_single_content .service_icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    display: block;
+}
+.HomeDemo2 .service_icon{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.HomeDemo2 .service_single_content h6 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.title-holder-tokenomics{
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    
+}
+
+.description-holder-tokenomics{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.tokenomics-extra-info{
+    width: 100%;
+    text-align: center;
+}
+
+.minus-tokenomics{
+    margin-top: -22px;
+}
+
+.logomaincrux{
+    text-align: center;
+    width: 100%;
+}
+
+.logomaincruximage{
+    width: 20%;
+}

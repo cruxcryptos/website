@@ -1,0 +1,424 @@
+import {
+  HomeDemo2IcoPlatforms1,
+  HomeDemo2IcoPlatforms2,
+  HomeDemo2IcoPlatforms3,
+  HomeDemo2IcoPlatforms4,
+  HomeDemo2IcoPlatforms5,
+  HomeDemo2IcoPlatforms6,
+  HomeDemo2Services1,
+  HomeDemo2Services2,
+  HomeDemo2Services3,
+  HomeDemo2Services4,
+  HomeDemo2Services5,
+  HomeDemo2Services6,
+  HomeDemo2TokenIcon1,
+  HomeDemo2TeamImg1,
+  HomeDemo2TeamImg2,
+  HomeDemo2TeamImg3,
+  HomeDemo2TeamImg4,
+  HomeDemo2TeamImg5,
+  HomeDemo2TeamImg6,
+  HomeDemo2Partners1,
+  HomeDemo2Partners2,
+  HomeDemo2Partners3,
+  HomeDemo2Partners4,
+  HomeDemo2Partners5,
+  HomeDemo2Partners6,
+  HomeDemo2Partners7,
+  HomeDemo2Partners8,
+  HomeDemo2Partners9,
+  HomeDemo2Partners10,
+  HomeDemo2Partners11,
+  HomeDemo2Partners12,
+  HomeDemo2RoadmapIcons1,
+  HomeDemo2RoadmapIcons2,
+  HomeDemo2RoadmapIcons3,
+  HomeDemo2RoadmapIcons4,
+  HomeDemo2RoadmapIcons5,
+  HomeDemo2RoadmapIcons6,
+  HomeDemo2RoadmapIcons7,
+  HomeDemo2RoadmapIcons8,
+  HomeDemo2RoadmapIcons9,
+  HomeDemo2BlogImg1,
+  HomeDemo2BlogImg2,
+  HomeDemo2BlogImg3,
+} from "../../utils/allImgs";
+
+export const VerticalSocial = [
+  { nameIco: "fa fa-telegram" },
+  { nameIco: "fa fa-github" },
+];
+
+export const SingleCoolFact = [
+  {
+    img: HomeDemo2IcoPlatforms1,
+    ico_check: true,
+  },
+  {
+    img: HomeDemo2IcoPlatforms1,
+    ico_check: false,
+  },
+  {
+    img: HomeDemo2IcoPlatforms3,
+    ico_check: true,
+  },
+  {
+    img: HomeDemo2IcoPlatforms3,
+    ico_check: true,
+  },
+  {
+    img: HomeDemo2IcoPlatforms6,
+    ico_check: false,
+  },
+  {
+    img: HomeDemo2IcoPlatforms6,
+    ico_check: true,
+  },
+];
+
+export const service_single_content = [
+  {
+    img: HomeDemo2Services1,
+    title: "Smart Trading Modules",
+  },
+  {
+    img: HomeDemo2Services2,
+    title: "Adaptive Social Assistant",
+  },
+  {
+    img: HomeDemo2Services3,
+    title: "Analyzer of the News ",
+  },
+  {
+    img: HomeDemo2Services4,
+    title: "Exchange Order Management",
+  },
+  {
+    img: HomeDemo2Services5,
+    title: "Module of Price Notification",
+  },
+  {
+    img: HomeDemo2Services6,
+    title: "Crypto Trading Platform",
+  },
+];
+
+export const timelineInfo = [
+  {
+    left: "14%",
+    ClassName: "data_cir cir_0",
+    date: "Q2-Q4 2022",
+    IsSpan: true,
+    TextSpan: "Initial Concept and in-game implementation",
+    IsTowLi: false,
+    TextTowLi1: "",
+    TextTowLi2: "",
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: false,
+    TextFourLi1: "",
+    TextFourLi2: "",
+    TextFourLi3: "",
+    TextFourLi4: "",
+    img: HomeDemo2RoadmapIcons1,
+  },
+  {
+    left: "28%",
+    ClassName: "data_cir cir_1",
+    date: "December 2022",
+    IsSpan: false,
+    TextSpan: "",
+    IsTowLi: false,
+    TextTowLi1: "",
+    TextTowLi2: "",
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: true,
+    TextFourLi1: "Team estabilishment",
+    TextFourLi2: "Social networks creation",
+    TextFourLi3: "Website creation",
+    TextFourLi4: "Pre-sale and IDO",
+    img: HomeDemo2RoadmapIcons2,
+  },
+  {
+    left: "35%",
+    ClassName: "data_cir cir_2",
+    date: "JAN-FEB 2023",
+    IsSpan: false,
+    TextSpan: "",
+    IsTowLi: false,
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: true,
+    TextFourLi1: "Certik Audit",
+    TextFourLi2: "$CRUX DEX Listing",
+    TextFourLi3: "Secure Embassadors",
+    TextFourLi4: "Initial Marketing",
+    img: HomeDemo2RoadmapIcons3,
+  },
+  {
+    left: "48%",
+    ClassName: "data_cir cir_2",
+    date: "Q1 2023",
+    IsSpan: false,
+    TextSpan: "",
+    IsTowLi: false,
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: true,
+    TextFourLi1: "Staking Platform",
+    TextFourLi2: "$CRUX CEX Listing",
+    TextFourLi3: "Release of  pre-ALPHA stage of the game to public",
+    TextFourLi4: "Smart contracts development for the game",
+    img: HomeDemo2RoadmapIcons3,
+  },
+  {
+    left: "60%",
+    ClassName: "data_cir cir_4 red_c",
+    date: "Q2 2023",
+    IsSpan: false,
+    IsSpan: false,
+    TextSpan: "",
+    IsTowLi: false,
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: true,
+    TextFourLi1: "NFT Marketplace Release",
+    TextFourLi2: "Weapons NFT Collection",
+    TextFourLi3: "Lands and Buldings NFT collection",
+    TextFourLi4: "$CRUX CEX Listing",
+    img: HomeDemo2RoadmapIcons5,
+  },
+  {
+    left: "72%",
+    ClassName: "data_cir cir_5 next",
+    date: "Q3 2023",
+    IsSpan: false,
+    IsSpan: false,
+    TextSpan: "",
+    IsTowLi: false,
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: true,
+    TextFourLi1: "ALPHA version release",
+    TextFourLi2: "Esports sponsored team creation",
+    TextFourLi3: "Tournaments with rewards",
+    TextFourLi4: "$CRUX CEX Listing",
+    img: HomeDemo2RoadmapIcons6,
+  },
+  {
+    left: "80%",
+    ClassName: "data_cir cir_4 red_c",
+    date: "Q4 2023",
+    IsSpan: false,
+    IsSpan: false,
+    TextSpan: "",
+    IsTowLi: false,
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: true,
+    TextFourLi1: "pre-BETA version Release",
+    TextFourLi2: "Esports Platforms Partnerships",
+    TextFourLi3: "Game Teasers for advertising",
+    TextFourLi4: "$CRUX CEX listings",
+    img: HomeDemo2RoadmapIcons5,
+  },
+  {
+    left: "90%",
+    ClassName: "data_cir cir_0",
+    date: "2024",
+    IsSpan: true,
+    TextSpan: "More to be disclosed through 2023",
+    IsTowLi: false,
+    TextTowLi1: "",
+    TextTowLi2: "",
+    IsThreeLi: false,
+    TextThreeLi1: "",
+    TextThreeLi2: "",
+    TextThreeLi3: "",
+    IsFourLi: false,
+    TextFourLi1: "",
+    TextFourLi2: "",
+    TextFourLi3: "",
+    TextFourLi4: "",
+    img: HomeDemo2RoadmapIcons9,
+  },
+];
+
+export const ServiceBlock = [
+  {
+    classIco: "icon ti-mobile",
+    title: "Powerfull Mobile and Online App",
+  },
+  {
+    classIco: "icon ti-widget",
+    title: "Brings more Transparency and Speed",
+  },
+  {
+    classIco: "icon ti-settings",
+    title: "Special for Multiple Use Capabilities",
+  },
+];
+
+export const SocialListIco = [
+  { icoName: "fa fa-facebook-square" },
+  { icoName: "fa fa-twitter-square" },
+  { icoName: "fa fa-github-square" },
+  { icoName: "fa fa-instagram" },
+  { icoName: "fa fa-medium" },
+];
+
+export const FQAInfo = [
+  {
+    text: "What is $CRUX?",
+    ID: "Q1",
+    answer: "Answer",
+  },
+  {
+    text: "When $CRUX will be available to the public?",
+    ID: "Q2",
+    answer: "Q1",
+  },
+  {
+    text: "What and when is the pre-sale?",
+    ID: "Q3",
+    answer: "Q1",
+  },
+  {
+    text: "Why $CRUX takes 8% fee on buying and selling?",
+    ID: "Q4",
+    answer: "Q1",
+  },
+  {
+    text: "When does the game goes public?",
+    ID: "Q5",
+    answer: "Q1",
+  },
+  {
+    text: "What are the benefiths of the game?",
+    ID: "Q6",
+    answer: "Q1",
+  },
+  {
+    text: "What platforms the game will be supported?",
+    ID: "Q7",
+    answer: "Q1",
+  },
+];
+
+export const DocElementTitle = [
+  {
+    title: "WhitePaper",
+  },
+  {
+    title: "OnePager",
+  },
+  {
+    title: "Rating Review",
+  },
+  {
+    title: "Marketing Plan",
+  },
+];
+
+export const TokenText = [
+  {
+    text: "Lorem ipsum dolor sit amet, conse ctetur elit",
+    img: HomeDemo2TokenIcon1,
+  },
+  {
+    text: "Sed quis accumsan nisi Ut ut felis",
+    img: HomeDemo2TokenIcon1,
+  },
+  {
+    text: "felis congue nisl hendrerit commodo",
+    img: HomeDemo2TokenIcon1,
+  },
+  {
+    text: "arch nemo sequi rem saepe ad quasi ullam.",
+    img: HomeDemo2TokenIcon1,
+  },
+];
+
+export const MissionData = [
+  {
+    icoName: "ti-shine",
+    title: "Quality",
+  },
+  {
+    icoName: "ti-ruler-pencil",
+    title: "Creativity",
+  },
+  {
+    icoName: "ti-heart",
+    title: "Reliability",
+  },
+];
+
+export const TeamMember = [
+  {
+    img: HomeDemo2TeamImg5,
+    title: "Rodrigo Bastos",
+    text: "CEO and Founder",
+  },
+  {
+    img: HomeDemo2TeamImg3,
+    title: "Luís Nunes",
+    text: "CTO and Co-Founder",
+  },
+  {
+    img: HomeDemo2TeamImg4,
+    title: "Paulo Correia",
+    text: "Lead 3D Artist",
+  },
+  {
+    img: HomeDemo2TeamImg2,
+    title: "Vitor Lopes",
+    text: "Web Developer",
+  },
+  {
+    img: HomeDemo2TeamImg1,
+    title: "Rui Mira",
+    text: "Game Developer",
+  },
+  {
+    img: HomeDemo2TeamImg6,
+    title: "André Lopes",
+    text: "Game Developer",
+  }
+];
+
+export const PartnersData = [
+  { img: HomeDemo2Partners1 },
+  { img: HomeDemo2Partners2 },
+  { img: HomeDemo2Partners3 },
+  { img: HomeDemo2Partners4 },
+  { img: HomeDemo2Partners5 },
+  { img: HomeDemo2Partners6 },
+  { img: HomeDemo2Partners7 },
+  { img: HomeDemo2Partners8 },
+  { img: HomeDemo2Partners9 },
+  { img: HomeDemo2Partners10 },
+  { img: HomeDemo2Partners11 },
+  { img: HomeDemo2Partners12 },
+];
+
+export const BlogPost = [
+  { img: HomeDemo2BlogImg1 },
+  { img: HomeDemo2BlogImg2 },
+  { img: HomeDemo2BlogImg3 },
+];
