@@ -51,10 +51,16 @@
     .HomeDemo2 .service-img-wrapper .image-box{
         margin-top: 0 !important
     }
+    
 }
 @media (max-width: 992px){
     .HomeDemo2 .service-img-wrapper .image-box{
         margin-top: 30px !important
+    }
+    
+    .fullwidth {
+        width: 100vw !important;
+        height: 160vh !important;
     }
     
     .zombie {
