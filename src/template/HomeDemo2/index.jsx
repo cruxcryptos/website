@@ -26,11 +26,11 @@ import SecWelcomeArea from './SecWelcomeArea'
 
 let HomeDemo2 = () => {
   useEffect(() => {
-    handelTitle('$CRUX World - MMORPG Metaverse')
+    handelTitle('$CRUX CRYPTO - MMORPG P2E METAVERSE')
   }, [])
 
   useEffect(() => {
-    if (document.title === '$CRUX World - MMORPG Metaverse') {
+    if (document.title === '$CRUX CRYPTO - MMORPG P2E METAVERSE') {
       document.getElementsByTagName('body')[0].style.backgroundImage =
         'linear-gradient(to right, #000000, #000000)'
     } else {
