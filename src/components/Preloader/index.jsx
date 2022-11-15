@@ -15,7 +15,7 @@ function PreloaderContainer(){
 	            <meta name="robots" content="noindex, follow" />
 	            <meta
 	                name="description"
-	                content="$CRUX powers a Survival MMORPG Game with a token-based economy (Play-to-Earn) system on Binance Smart Chain. "
+	                content="$CRUX powers a Survival MMORPG Play-to-Earn P2E Game with a token-based economy on  BSC. Earn more CRUX tokens  just by holding. "
 	            />
 	            <meta
 	                name="viewport"
