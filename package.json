@@ -21,6 +21,7 @@
     "react-icons": "^4.6.0",
     "react-particles": "^2.5.3",
     "react-router-dom": "^5.2.0",
+    "react-router-sitemap": "^1.2.0",
     "sass": "^1.42.0",
     "tsparticles": "^2.5.3",
     "web-vitals": "^1.0.1"
