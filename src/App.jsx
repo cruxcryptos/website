@@ -1,6 +1,8 @@
 import Aos from 'aos'
 import React, { useEffect } from 'react'
-import { Helmet } from 'react-helmet'
+import { HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
+
 import { Route, Switch } from 'react-router-dom'
 import HomeDemo2 from './template/HomeDemo2'
 import imagemeta from './assets/img/core-img/meta-crux.png'
