@@ -41,9 +41,9 @@ const SecOurServices = ({ data }) => {
                 </div>
                 <div className="description-holder-tokenomics">
                   <p>
-                    2% of each transaction will also be added to the liquidity
-                    pool, this allows our ecosystem to have a greater liquidity
-                    and strength on the market.
+                    2% of each transaction will be added to the liquidity locked
+                    pool, this allows our ecosystem to grow and be secured
+                    with strength on the market.
                   </p>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const SecOurServices = ({ data }) => {
                 <div className="description-holder-tokenomics">
                   <p>
                     4% of each transaction will be allocated to Ecosystem
-                    growth, this includes marketing and development needs for
+                    growth, it includes marketing and development needs for
                     the project to grow.
                   </p>
                 </div>

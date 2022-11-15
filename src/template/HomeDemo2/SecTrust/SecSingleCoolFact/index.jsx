@@ -26,7 +26,7 @@ const SecSingleCoolFact = ({ data }) => {
               <img src={gifquests} alt='land'/>
             </div>
             <h4>P2E Quests</h4>
-            <p>Our world features missions that once accomplished, you can win rewards that can be claimable and sold or swapped.</p>
+            <p>Our world features missions that once accomplished, you can win rewards that can be claimable, sold or swapped on the NFT marketplace.</p>
           </div>
         </div>
         <div className="col-sm" data-aos="fade-up">
@@ -35,7 +35,7 @@ const SecSingleCoolFact = ({ data }) => {
               <img src={gifunique} alt='land'/>
             </div>
             <h4>Unique Assets</h4>
-            <p>Leverage your skills with unique items on the journey against the undead. They provide stats increase to make your character stronger.</p>
+            <p>Leverage your skills with unique items on the journey against the undead. They provide increased stats to make you stronger.</p>
           </div>
         </div>
       </div>

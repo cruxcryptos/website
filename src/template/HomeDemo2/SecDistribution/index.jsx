@@ -7,7 +7,7 @@ const SecDistribution = ({ img, data }) => {
       <div className="container">
         <SectionHeading
           title="ICO Distribution"
-          text="Upon releasing $CRUX to the public, we decided to split the supply in the following way."
+          text="Upon releasing $CRUX to the public, for the sustainability and growth we decided to split the supply in the following way."
         />
 
         <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">

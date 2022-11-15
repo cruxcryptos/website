@@ -286,37 +286,42 @@ export const FQAInfo = [
   {
     text: "What is $CRUX?",
     ID: "Q1",
-    answer: "Answer",
+    answer: "$CRUX is a BSC Crypto Token that powers our survival game. Each transaction that occurs with $CRUX has a fee of 8%, 2% is allocated to existing holders, 2% is added to Liquidity and 4% is added to the project growth and sustainability. With $CRUX you earn more tokens just simply by holding.",
   },
   {
     text: "When $CRUX will be available to the public?",
     ID: "Q2",
-    answer: "Q1",
+    answer: "Currently we are still gathering our first community and creating our social fingerprint. We predict the pre-sale and IDO to be on December however it depends on our traction on that time. Be sure to join our Telegram for more info and dates as soon as they are confirmed.",
   },
   {
     text: "What and when is the pre-sale?",
     ID: "Q3",
-    answer: "Q1",
+    answer: "Pre-sale is not confirmed yet but expected to be early December. More info on our telegram.",
+  },
+  {
+    text: "Is the liquidity Locked?",
+    ID: "Q4",
+    answer: "In onder to provide safety for investors, as soon as we start our IDO we will lock our liquidity for a period of 4 years, this will give safety to future investors.",
   },
   {
     text: "Why $CRUX takes 8% fee on buying and selling?",
-    ID: "Q4",
-    answer: "Q1",
+    ID: "Q5",
+    answer: "Our protocol implies a 8% fee, being 2% for the holders, 2% added to Liquidity, and 4% added to project growth.",
   },
   {
     text: "When does the game goes public?",
-    ID: "Q5",
-    answer: "Q1",
+    ID: "Q6",
+    answer: "Before the game goes fully public, we need  first to complete 2 phases, ALPHA and BETA (Check the roadmap) , this phases serves to test the game in real online environment with testers, that will be the community. After the two stages we can for sure launch the game public for everyone.",
   },
   {
     text: "What are the benefiths of the game?",
-    ID: "Q6",
-    answer: "Q1",
+    ID: "Q7",
+    answer: "We are building a game that is amazing by itself and the possibilites that come with it. We wanted to give the consumer a open world free to explore with a group of friends and that's the main concept of our game. Added to this we thought it was the perfect scenario to add the P2E (Play to Earn) system, so we are doing it and the game will have it's own economic ecosystem where players will have fun but also win/get/trade assets that can contain monetary value.",
   },
   {
     text: "What platforms the game will be supported?",
-    ID: "Q7",
-    answer: "Q1",
+    ID: "Q8",
+    answer: "Our initial platform will be only PC.",
   },
 ];
 
