@@ -333,6 +333,16 @@
         margin-left: -moz-calc(45vw + 2px);
         margin-left: calc(45vw + 2px);
     }
+
+    .section-before:before{
+        top: -6% !important;
+    }
+    .section-heading h2{
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    }
+    .bgpreto {
+        margin-top: 40px;
+    }
     .section-padding-100{
         padding-top: 0px !important;
     }
