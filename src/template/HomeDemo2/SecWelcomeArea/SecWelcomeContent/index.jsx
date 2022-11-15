@@ -25,7 +25,7 @@ function SecWelcomeContent({ img }) {
         </p>
         <p className="hero-desc">
         The enemy forces are
-          unleashed, compete with friends and fight against them, the main goal
+          unleashed, compete with friends or fight against them, the main goal
           is to survive the undead.
         </p>
         <p className="hero-desc">
