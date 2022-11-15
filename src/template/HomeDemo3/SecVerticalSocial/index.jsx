@@ -1,4 +1,4 @@
-const Li_A = ({nameIco}) => <li><a href="#"><i className={nameIco} aria-hidden="true"></i></a></li>
+const Li_A = ({nameIco,hreference}) => <li><a href={hreference}><i className={nameIco} aria-hidden="true"></i></a></li>
 
 const SecVerticalSocial = ({data}) => {
 
@@ -6,7 +6,7 @@ const SecVerticalSocial = ({data}) => {
     <div className="vertical-social">
         <ul>
             {data && data.map((item , key) => (
-                    <Li_A nameIco={item.nameIco} />
+                    <Li_A nameIco={item.nameIco}  hreference={item.linkref}/>
                 ))
             }
             

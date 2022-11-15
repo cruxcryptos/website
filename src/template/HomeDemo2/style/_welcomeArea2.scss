@@ -49,18 +49,56 @@
     text-transform: uppercase !important;
     background-size: 200% auto !important;
     color: #fff !important;
-    box-shadow: 0 3ox 20px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 0 0 0  #e7c013be;
     border-radius: 100px !important;
     background-image: -webkit-linear-gradient(left, #21d397 0%, #7450fe 51%, #21d397 100%);
     background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);
-    -webkit-transition: all 500ms !important;
-    transition: all 500ms !important;
+    -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1) !important;
+    -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1) !important;
+    -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1) !important;
+    animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1) !important;
+    transition: all 300ms ease-in-out !important;
 }
 
 .dream-btn:hover {
     background-position: right center;
     color: #fff;
+     -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
 }
+/* Animation */
+
+@-webkit-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(218, 162, 11, 0);
+    }
+  }
+  
+  @-moz-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(218, 162, 11, 0);
+    }
+  }
+  
+  @-ms-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(218, 162, 11, 0);
+    
+    }
+  }
+  
+  @keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px  rgba(218, 162, 11, 0);
+    
+    }
+  }
+  
+
+
+
 
 .HomeDemo2 .hero-content.globe{
     background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.75));

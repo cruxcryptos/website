@@ -19,7 +19,7 @@ const SecTeam = ({ data }) => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row aligncenter">
           {data &&
             data.map((item, key) => (
               <div className="col-md-4" data-aos="fade-up">
@@ -31,12 +31,12 @@ const SecTeam = ({ data }) => {
                     <h5>{item.title}</h5>
                     <p>{item.text}</p>
                   </div>
-                  {/*                             <div className="team-social-icon">
-                                <a href="#"><i className="fa fa-twitter"></i></a>
-                                <a href="#"><i className="fa fa-instagram"></i></a>
+                                               <div className="team-social-icon">
+                                <a href={'https://t.me/'+item.telegramslug}><i className="fa fa-telegram"></i></a>
+                                {/* <a href="#"><i className="fa fa-instagram"></i></a>
                                 <a href="#"><i className="fa fa-facebook"></i></a>
-                                <a href="#"><i className="fa fa-skype"></i></a>
-                            </div> */}
+                                <a href="#"><i className="fa fa-skype"></i></a> */}
+                            </div> 
                 </div>
               </div>
             ))}

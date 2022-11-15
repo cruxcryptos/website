@@ -5,6 +5,8 @@
 */
 .HomeDemo2 .subscribe{
     position: relative;
+    z-index: 2;
+    margin-bottom: 26px;
 }
 .HomeDemo2 .subscribe .section-heading > p{
     color: #eee
@@ -26,6 +28,10 @@
 }
 
 .HomeDemo2 .subscribe .service-text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
     padding-top: 0
 }
 .HomeDemo2 .subscribe .title-box{
@@ -33,17 +39,19 @@
 }
 
 .HomeDemo2 .subscribe-wrapper {
-    padding: 60px;
+    padding: 26px;
     overflow: hidden;
     box-sizing: border-box;
     border-radius: 20px;
-    background: rgb(19, 19, 19);
-    box-shadow: 0 10px 80px #af36364d;
+    background: #030303;
+    width: 100%;
+    border: 1px solid rgb(175 54 54);
+    box-shadow: -1px 2px 30px -2px rgb(175 54 54);
 }
 .HomeDemo2 .telegram-text{
     font-size: 20px;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 26px;
     position: relative;
     z-index: 2
 }
@@ -92,7 +100,7 @@
     font-size: 16px;
     z-index: 2;
     line-height: 1.25;
-    color: #25cbd3 !important;
+    color: #eeb004 !important;
     background: #fff;
     border: 0 solid;
     border-radius: 40px;
@@ -109,7 +117,7 @@
     box-shadow: 0 3px 21px 4px rgba(41, 41, 58, 0.2);
 }
 .HomeDemo2 .button:hover{
-    background: #25cbd3;
+    background: #eeb004;
     color: #fff !important;
 }
 .HomeDemo2 .button i{

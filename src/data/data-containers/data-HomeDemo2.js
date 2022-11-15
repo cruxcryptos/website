@@ -45,8 +45,9 @@ import {
 } from "../../utils/allImgs";
 
 export const VerticalSocial = [
-  { nameIco: "fa fa-telegram" },
-  { nameIco: "fa fa-github" },
+  { nameIco: "fa fa-telegram", linkref: 'https://t.me/cruxmmorpg' },
+  { nameIco: "fa fa-github", linkref: 'https://github.com/CruxCrypto' },
+  { nameIco: "fa fa-envelope" , linkref: 'mailto:info@cruxcryptos.com'},
 ];
 
 export const SingleCoolFact = [
@@ -379,26 +380,31 @@ export const TeamMember = [
     img: HomeDemo2TeamImg5,
     title: "Rodrigo Bastos",
     text: "CEO and Founder",
+    telegramslug:'rodrigocruxcrypto',
   },
   {
     img: HomeDemo2TeamImg3,
     title: "Luís Nunes",
     text: "CTO and Co-Founder",
+    telegramslug:'luiscrux',
   },
   {
     img: HomeDemo2TeamImg4,
     title: "Paulo Correia",
     text: "Lead 3D Artist",
+    telegramslug:'paulocrux',
   },
   {
     img: HomeDemo2TeamImg2,
     title: "Vitor Lopes",
     text: "Web Developer",
+    telegramslug:'vitorcrux',
   },
   {
     img: HomeDemo2TeamImg1,
     title: "Rui Mira",
     text: "3D Developer",
+    telegramslug:'ruicruxcryptos',
   },
 ];
 

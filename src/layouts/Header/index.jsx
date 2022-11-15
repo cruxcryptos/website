@@ -55,7 +55,7 @@ const Header = () => {
                     <li><a onClick={moveSmooth} href="#faqs">FAQs</a></li>
                     <li><a onClick={moveSmooth} href="#team">Team</a></li>
                   </ul>
-                  <a href="#" className="btn login-btn ml-50"> Telegram</a>
+                  <a href="https://t.me/cruxmmorpg" className="btn login-btn ml-50"> Telegram</a>
                 </div>
               </div>
             </nav>
