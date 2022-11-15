@@ -21,18 +21,18 @@ const App = () => {
   return (
     <div className="App">
       <Helmet>
-        <meta charset="utf-8" />
+        <meta charset="utf-8" data-react-helmet="true"/>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+          data-react-helmet="true" />
         <title>$CRUX World - MMORPG Metaverse</title>
-        <meta name="title" content="$CRUX World - MMORPG Metaverse" />
+        <meta name="title" content="$CRUX World - MMORPG Metaverse" data-react-helmet="true"/>
         <meta
           name="description"
           content="$CRUX powers a Survival MMORPG Game with a token-based economy
           (Play-to-Earn) system on Binance Smart Chain."
-        />
+          data-react-helmet="true"/>
 
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
@@ -45,34 +45,38 @@ const App = () => {
           crossorigin="anonymous"
         />
 
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" data-react-helmet="true"/>
         <meta
           property="og:url"
-          content="https://jocular-melba-09c752.netlify.app/"
+          content="https://jocular-melba-09c752.netlify.app/" data-react-helmet="true"
         />
-        <meta property="og:title" content="$CRUX World - MMORPG Metaverse" />
+        <meta property="og:title" content="$CRUX World - MMORPG Metaverse" data-react-helmet="true" />
         <meta
           property="og:description"
           content="$CRUX powers a Survival MMORPG Game with a token-based economy
           (Play-to-Earn) system on Binance Smart Chain. "
+          data-react-helmet="true"
         />
         <meta property="og:image" content={imagemeta} />
 
-        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:card" content="summary_large_image" data-react-helmet="true"/>
         <meta
           property="twitter:url"
           content="https://jocular-melba-09c752.netlify.app/"
+          data-react-helmet="true"
         />
         <meta
           property="twitter:title"
           content="$CRUX World - MMORPG Metaverse"
+          data-react-helmet="true"
         />
         <meta
           property="twitter:description"
           content="$CRUX powers a Survival MMORPG Game with a token-based economy
           (Play-to-Earn) system on Binance Smart Chain. "
+          data-react-helmet="true"
         />
-        <meta property="twitter:image" content={imagemeta} />
+        <meta property="twitter:image" content={imagemeta} data-react-helmet="true"/>
       </Helmet>
       <Switch>
         <Route path="/" component={HomeDemo2} />
