@@ -26,16 +26,16 @@ import SecWelcomeArea from './SecWelcomeArea'
 
 let HomeDemo2 = () => {
   useEffect(() => {
-    handelTitle('Home Template2')
+    handelTitle('$CRUX World - MMORPG Metaverse')
   }, [])
 
   useEffect(() => {
-    if (document.title === 'Home Template2') {
+    if (document.title === '$CRUX World - MMORPG Metaverse') {
       document.getElementsByTagName('body')[0].style.backgroundImage =
-        'linear-gradient(to right, #1d0498, #341f97)'
+        'linear-gradient(to right, #000000, #000000)'
     } else {
       document.getElementsByTagName('body')[0].style.backgroundImage =
-        'linear-gradient(to right, #1d0498, #341f97)'
+        'linear-gradient(to right, #000000, #000000)'
     }
   }, [])
 
