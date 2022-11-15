@@ -398,13 +398,8 @@ export const TeamMember = [
   {
     img: HomeDemo2TeamImg1,
     title: "Rui Mira",
-    text: "Game Developer",
+    text: "3D Developer",
   },
-  {
-    img: HomeDemo2TeamImg6,
-    title: "André Lopes",
-    text: "Game Developer",
-  }
 ];
 
 export const PartnersData = [
