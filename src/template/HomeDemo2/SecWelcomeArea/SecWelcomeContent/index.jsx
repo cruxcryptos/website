@@ -20,8 +20,11 @@ function SecWelcomeContent({ img }) {
         </div>
         <h1 className="hero-title">P2E OPEN WORLD</h1>
         <p className="hero-desc">
-          $CRUX powers a Survival MMORPG Game with a token-based economy
-          (Play-to-Earn) system on Binance Smart Chain. The enemy forces are
+          $CRUX is a utility token that powers a Survival MMORPG Game with a token-based economy
+          (Play-to-Earn) system on Binance Smart Chain. You can earn more $CRUX simply by holding.
+        </p>
+        <p className="hero-desc">
+        The enemy forces are
           unleashed, compete with friends and fight against them, the main goal
           is to survive the undead.
         </p>
