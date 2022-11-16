@@ -47,6 +47,7 @@ import {
 export const VerticalSocial = [
   { nameIco: "fa fa-telegram", linkref: 'https://t.me/cruxmmorpg' },
   { nameIco: "fa fa-github", linkref: 'https://github.com/CruxCrypto' },
+  { nameIco: "fa fa-youtube" , linkref: 'https://www.youtube.com/@cruxcryptommorpg'},
   { nameIco: "fa fa-envelope" , linkref: 'mailto:info@cruxcryptos.com'},
 ];
 
@@ -379,7 +380,7 @@ export const TeamMember = [
   {
     img: HomeDemo2TeamImg5,
     title: "Rodrigo Bastos",
-    text: "CEO and Founder",
+    text: "COO and Founder",
     telegramslug:'rodrigocruxcrypto',
   },
   {
