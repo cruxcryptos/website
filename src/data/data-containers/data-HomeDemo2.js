@@ -46,8 +46,9 @@ import {
 
 export const VerticalSocial = [
   { nameIco: "fa fa-telegram", linkref: 'https://t.me/cruxmmorpg' },
-  { nameIco: "fa fa-github", linkref: 'https://github.com/CruxCrypto' },
+  { nameIco: "fa fa-book" , linkref: 'https://crux-mmorpg.gitbook.io/'},
   { nameIco: "fa fa-youtube" , linkref: 'https://www.youtube.com/@cruxcryptommorpg'},
+  { nameIco: "fa fa-github", linkref: 'https://github.com/CruxCrypto' },
   { nameIco: "fa fa-envelope" , linkref: 'mailto:info@cruxcryptos.com'},
 ];
 
@@ -316,7 +317,7 @@ export const FQAInfo = [
     answer: "Before the game goes fully public, we need  first to complete 2 phases, ALPHA and BETA (Check the roadmap) , this phases serves to test the game in real online environment with testers, that will be the community. After the two stages we can for sure launch the game public for everyone.",
   },
   {
-    text: "What are the benefiths of the game?",
+    text: "What are the benefits of the game?",
     ID: "Q7",
     answer: "We are building a game that is amazing by itself and the possibilites that come with it. We wanted to give the consumer a open world free to explore with a group of friends and that's the main concept of our game. Added to this we thought it was the perfect scenario to add the P2E (Play to Earn) system, so we are doing it and the game will have it's own economic ecosystem where players will have fun but also win/get/trade assets that can contain monetary value.",
   },

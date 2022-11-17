@@ -1,6 +1,10 @@
 import mainlogo from '../../../../assets/img/core-img/crux_logo.png'
 import imagedollar from '../../../../assets/img/svg/img-dollar.png'
 
+import { VerticalSocial } from './../../../../data/data-containers/data-HomeDemo2'
+
+import  SecHorizSocial  from './../../SecHorizontalSocial/index'
+
 function SecWelcomeContent({ img }) {
   return (
     <div className="welcome-content">
@@ -20,13 +24,13 @@ function SecWelcomeContent({ img }) {
         </div>
         <h1 className="hero-title">P2E OPEN WORLD</h1>
         <p className="hero-desc">
-          $CRUX is a utility token that powers a Survival MMORPG Game with a token-based economy
-          (Play-to-Earn) system on Binance Smart Chain. You can earn more $CRUX simply by holding.
+          $CRUX is a utility token that powers a Survival MMORPG Game with a
+          token-based economy (Play-to-Earn) system on Binance Smart Chain. You
+          can earn more $CRUX simply by holding.
         </p>
         <p className="hero-desc">
-        The enemy forces are
-          unleashed, compete with friends or fight against them, the main goal
-          is to survive the undead.
+          The enemy forces are unleashed, compete with friends or fight against
+          them, the main goal is to survive the undead.
         </p>
         <p className="hero-desc">
           <span className="statusspan">Current Status:</span> Gathering initial
@@ -36,6 +40,9 @@ function SecWelcomeContent({ img }) {
           <a href="https://t.me/cruxmmorpg" className="btn dream-btn mr-3">
             Join our telegram
           </a>
+        </div>
+        <div className="dream-btn-group centeredButtons">
+          <SecHorizSocial data={VerticalSocial} />
         </div>
       </div>
     </div>

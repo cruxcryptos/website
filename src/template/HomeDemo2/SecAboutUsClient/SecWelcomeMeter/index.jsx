@@ -8,7 +8,7 @@ const SecWelcomeMeter = () => {
         <div className="welcome-meter">
             <img src={imageGif} className="img-responsive center-block" alt="" />
             <div className="growing-company text-center mt-30">
-                <p>* Rendered on <span className="counter">Alpha Development</span> stage</p>
+                <p>* Rendered on <span className="counter">PRE-ALPHA Development</span> stage</p>
             </div>
         </div>
     </div>
