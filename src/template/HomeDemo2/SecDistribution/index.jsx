@@ -1,6 +1,7 @@
 import SectionHeading from '../../../components/SectionHeading'
 import TokenInfo from './TokenInfo'
 
+
 const SecDistribution = ({ img, data }) => {
   return (
     <section className="token-distribution">
@@ -16,7 +17,8 @@ const SecDistribution = ({ img, data }) => {
             <img src={img} className="center-block" alt="" />
           </div>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
+        <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" 
+      style={{zIndex:'20'}}>
           <div className="token-info-wapper"></div>
           <h2 className="text-center mb-30">Metrics</h2>
           <TokenInfo title="Name: " text="CRUX" />{' '}

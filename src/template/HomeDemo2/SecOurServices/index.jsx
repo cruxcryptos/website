@@ -1,10 +1,12 @@
 import image1 from '../../../assets/img/tokenomics/crux_grow.png'
 import image2 from '../../../assets/img/tokenomics/crux_liquidity.png'
 import image3 from '../../../assets/img/tokenomics/crux_reflections.png'
+import Tilt from 'react-parallax-tilt'
 import SectionHeading from '../../../components/SectionHeading'
 const SecOurServices = ({ data }) => {
   return (
-    <div className="bgpreto">
+    <div className="bgpreto" 
+    style={{zIndex:'10'}}>
       <section
         className="our_services_area section-padding-100-70 clearfix videocrux"
         id="services"
@@ -13,7 +15,15 @@ const SecOurServices = ({ data }) => {
           <SectionHeading title="Tokenomics" />
 
           <div className="row">
-            <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+            <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up" 
+      style={{zIndex:'20'}}>
+            <Tilt
+            glareEnable={true}
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            glareColor={'rgb(198,132,27)'}
+          >
               <div className="service_single_content text-left mb-100">
                 <div className="service_icon">
                   <img src={image3} alt="" />
@@ -29,10 +39,19 @@ const SecOurServices = ({ data }) => {
                   </p>
                 </div>
               </div>
+              </Tilt>
             </div>
 
-            <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
-              <div className="service_single_content text-left mb-100">
+            <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up" 
+      style={{zIndex:'20'}}>
+            <Tilt
+            glareEnable={true}
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            glareColor={'rgb(198,132,27)'}
+          >
+              <div className="service_single_content text-left mb-100" >
                 <div className="service_icon">
                   <img src={image2} alt="" />
                 </div>
@@ -47,10 +66,19 @@ const SecOurServices = ({ data }) => {
                   </p>
                 </div>
               </div>
+              </Tilt>
             </div>
 
-            <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
-              <div className="service_single_content text-left mb-100">
+            <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up" 
+      style={{zIndex:'20'}}>
+            <Tilt
+            glareEnable={true}
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            glareColor={'rgb(198,132,27)'}
+          >
+              <div className="service_single_content text-left mb-100" >
                 <div className="service_icon">
                   <img src={image1} alt="" />
                 </div>
@@ -66,6 +94,7 @@ const SecOurServices = ({ data }) => {
                   </p>
                 </div>
               </div>
+              </Tilt>
             </div>
           </div>
           <div className="row">

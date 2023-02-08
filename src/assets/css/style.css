@@ -1099,8 +1099,15 @@ p.artficial:before{
 .partners{
     padding: 0 0 70px
 }
+
+.boxgifhero{
+    -webkit-box-shadow: -1px 2px 50px -2px rgb(243, 22, 22);
+    -moz-box-shadow: -1px 2px 50px -2px rgb(243, 22, 22);
+    box-shadow: -1px 2px 50px -2px rgb(243, 22, 22);
+}
+
 .partner-box{
-    border: 1px solid #25cbd3;
+    border: 1px solid #c1d325;
     border-radius: 10px;
     padding: 20px 10px;
     text-align: center;
@@ -1522,6 +1529,7 @@ p.artficial:before{
     overflow: hidden;
     border-bottom: 3px solid #a843fd;
 }
+
 .ico-platform-logo{
     margin-bottom: 25px;
     min-height: 75px

@@ -32,7 +32,7 @@ const SecTeam = ({ data }) => {
                     <p>{item.text}</p>
                   </div>
                                                <div className="team-social-icon">
-                                <a href={'https://t.me/'+item.telegramslug}><i className="fa fa-telegram"></i></a>
+                                {/* <a href={'https://t.me/'+item.telegramslug}><i className="fa fa-telegram"></i></a> */}
                                 {/* <a href="#"><i className="fa fa-instagram"></i></a>
                                 <a href="#"><i className="fa fa-facebook"></i></a>
                                 <a href="#"><i className="fa fa-skype"></i></a> */}

@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import './style/HomeDemo2.scss'
 
+import Particles from './Particles';
+
 import {
   DocElementTitle,
   FQAInfo,
@@ -10,8 +12,8 @@ import {
   timelineInfo,
   TokenText,
   VerticalSocial,
+  PartnersData
 } from '../../data/data-containers/data-HomeDemo2.js'
-
 import {
   HomeDemo2About1,
   HomeDemo2Allocation,
@@ -33,6 +35,7 @@ import SecTrust from './SecTrust'
 import SecVerticalSocial from './SecVerticalSocial'
 import SecWelcomeArea from './SecWelcomeArea'
 import SecSubscribe from './SecSubscribe'
+import SecPartners from './SecPartners'
 
 let HomeDemo2 = () => {
   useEffect(() => {
@@ -55,8 +58,12 @@ let HomeDemo2 = () => {
       <div className="HomeDemo2">
         <SecWelcomeArea />
         <SecVerticalSocial data={VerticalSocial} />
+        
+        <SecPartners data={PartnersData} />
         <SecTrust data={SingleCoolFact} />
+        
         <SecAboutUsClient img={HomeDemo2About1} />
+        
         <SecDemoVideo img={HomeDemo2VideoBg4} />
 
         <div className="clearfix" />
@@ -64,9 +71,13 @@ let HomeDemo2 = () => {
         <SecDistribution img={HomeDemo2Allocation} data={TokenText} />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo2BgRoadmap} />
         <SecSubscribe />
+      
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
         <SecTeam data={TeamMember} />
+        
       </div>
+      
+      <Particles id="tsparticles" />
     </>
   )
 }

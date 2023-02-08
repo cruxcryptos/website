@@ -414,12 +414,6 @@ export const PartnersData = [
   { img: HomeDemo2Partners4 },
   { img: HomeDemo2Partners5 },
   { img: HomeDemo2Partners6 },
-  { img: HomeDemo2Partners7 },
-  { img: HomeDemo2Partners8 },
-  { img: HomeDemo2Partners9 },
-  { img: HomeDemo2Partners10 },
-  { img: HomeDemo2Partners11 },
-  { img: HomeDemo2Partners12 },
 ];
 
 export const BlogPost = [
