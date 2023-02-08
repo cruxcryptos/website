@@ -393,7 +393,7 @@ export const TeamMember = [
   {
     img: HomeDemo2TeamImg4,
     title: "Paulo Correiaa",
-    text: "Lead 3D Artist",
+    text: "Lead 3D Artists",
   },
   {
     img: HomeDemo2TeamImg2,
