@@ -392,7 +392,7 @@ export const TeamMember = [
   },
   {
     img: HomeDemo2TeamImg4,
-    title: "Paulo Correia",
+    title: "Paulo Correiaa",
     text: "Lead 3D Artist",
   },
   {
