@@ -4,11 +4,11 @@ import TokenInfo from './TokenInfo'
 
 const SecDistribution = ({ img, data }) => {
   return (
-    <section className="token-distribution">
+    <section className="token-distribution ">
       <div className="container">
         <SectionHeading
-          title="ICO Distribution"
-          text="Upon releasing $CRUX to the public, for the sustainability and growth we decided to split the supply in the following way."
+          title="CRUX ICO Distribution"
+          text="Upon releasing CRUX to the public, for the sustainability and growth we decided to split the supply in the following way."
         />
 
         <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
@@ -23,7 +23,7 @@ const SecDistribution = ({ img, data }) => {
           <h2 className="text-center mb-30">Metrics</h2>
           <TokenInfo title="Name: " text="CRUX" />{' '}
           <TokenInfo title="Ticker: " text="$CRUX" />{' '}
-          <TokenInfo title="Max supply: " text="1,000,000,000 $CRUX" />{' '}
+          <TokenInfo title="Max supply: " text="1,000,000,000 CRUX" />{' '}
           <TokenInfo title="Staked: " text="Coming soon." />{' '}
         </div>
       </div>
