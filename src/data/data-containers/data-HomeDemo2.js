@@ -45,7 +45,7 @@ import {
 } from "../../utils/allImgs";
 
 export const VerticalSocial = [
-  { nameIco: "fa fa-telegram", linkref: 'https://t.me/cruxmmorpg' },
+  { nameIco: "fa fa-telegram", linkref: 'https://t.me/CRUX_CRYPTOS' },
   { nameIco: "fa fa-twitter", linkref: 'https://twitter.com/CruxCripto' },
   { nameIco: "fa fa-book" , linkref: 'https://crux-mmorpg.gitbook.io/'},
   { nameIco: "fa fa-youtube" , linkref: 'https://www.youtube.com/@cruxcryptommorpg'},

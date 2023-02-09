@@ -38,7 +38,7 @@ function SecWelcomeContent({ img }) {
           community.
         </p>
         <div className="dream-btn-group centeredButtons">
-          <a href="https://t.me/cruxmmorpg" className="btn dream-btn mr-3">
+          <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
             Join our telegram
           </a>
         </div>

@@ -3,7 +3,7 @@ const SecTelegramText = () => {
   return (
     <div className="text-center">
         <span className="telegram-text">Join our chat: </span>
-        <a href="https://t.me/cruxmmorpg" className="button"><i className="fa fa-telegram"></i>Telegram</a>
+        <a href="https://t.me/CRUX_CRYPTOS" className="button"><i className="fa fa-telegram"></i>Telegram</a>
     </div>
   );
 }
