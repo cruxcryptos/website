@@ -8,6 +8,7 @@ import  SecHorizSocial  from './../../SecHorizontalSocial/index'
 function SecWelcomeContent({ img }) {
   return (
     <div className="welcome-content">
+      <h1 style={{display:'none'}} >CRUX Crypto - MMORPG Play-to-Earn Metaverse Game - Survival</h1>
       <div className="promo-section">
         <div className="integration-link">
           <span className="integration-icon">
@@ -22,11 +23,11 @@ function SecWelcomeContent({ img }) {
         <div className="logomaincrux">
           <img className="logomaincruximage" src={mainlogo} alt="logocrux" />
         </div>
-        <h1 className="hero-title">P2E OPEN WORLD</h1>
+        <h1 className="hero-title">CRUX MMORPG SURVIVAL</h1>
         <p className="hero-desc">
-          $CRUX is a utility token that powers a Survival MMORPG Game with a
-          token-based economy (Play-to-Earn) system on Binance Smart Chain. You
-          can earn more $CRUX simply by holding.
+          CRUX crypto is a utility token that powers a Survival MMORPG Game on Metaverse with a
+          token-based economy (Play-to-Earn) on Binance Smart Chain. You
+          can earn more CRUX simply by holding.
         </p>
         <p className="hero-desc">
           The enemy forces are unleashed, compete with friends or fight against

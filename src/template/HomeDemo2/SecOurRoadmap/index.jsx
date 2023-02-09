@@ -7,7 +7,7 @@ const SecOurRoadmap = ({data , img}) => {
     <section className="roadmap section-padding-100" style={{background: `url(${img}) no-repeat center center`, backgroundSize: 'cover'}} id="roadmap">
         <SectionHeading
             title='Roadmap'
-            text='$CRUX has a path already defined and we divided it into stages and quarterly objectives. As we grow our roadmap might also change to grow the project further.'
+            text='CRUX has a path already defined and we divided it into stages and quarterly objectives. As we grow our roadmap might also change to grow the project further.'
         />
         <div className="container-fluid">
           <div className="row">

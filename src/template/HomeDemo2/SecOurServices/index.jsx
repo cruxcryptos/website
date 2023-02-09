@@ -33,9 +33,9 @@ const SecOurServices = ({ data }) => {
                 </div>
                 <div className="description-holder-tokenomics">
                   <p>
-                    Each transaction with $CRUX will have a 2% fee that will be
+                    Each transaction with CRUX will have a 2% fee that will be
                     redistributed to all current holders. While you hold, you
-                    will be receiving more $CRUX.
+                    will be receiving more CRUX.
                   </p>
                 </div>
               </div>

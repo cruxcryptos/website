@@ -51,7 +51,7 @@ const SecSingleCoolFact = ({ data }) => {
             </div>
             <h4>P2E Quests</h4>
             <p>
-              Our world features missions that once accomplished, you can win
+              Our play to earn system has missions that once accomplished, you win
               rewards that can be claimable, sold or swapped on the NFT
               marketplace.
             </p>
@@ -99,8 +99,8 @@ const SecSingleCoolFact = ({ data }) => {
             </div>
             <h4>Staking In-Game</h4>
             <p>
-              Our economy includes a stake system where players will earn
-              rewards based on their stake.{' '}
+              Our crypto economy includes a stake system where players will earn
+              rewards based on their stake with CRUX.{' '}
             </p>
           </div>
           </Tilt>

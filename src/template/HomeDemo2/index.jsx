@@ -39,11 +39,11 @@ import SecPartners from './SecPartners'
 
 let HomeDemo2 = () => {
   useEffect(() => {
-    handelTitle('$CRUX CRYPTO - MMORPG P2E METAVERSE')
+    handelTitle('CRUX CRYPTO - MMORPG P2E METAVERSE')
   }, [])
 
   useEffect(() => {
-    if (document.title === '$CRUX CRYPTO - MMORPG P2E METAVERSE') {
+    if (document.title === 'CRUX CRYPTO - MMORPG P2E METAVERSE') {
       document.getElementsByTagName('body')[0].style.backgroundImage =
         'linear-gradient(to right, #000000, #000000)'
     } else {

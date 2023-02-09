@@ -161,7 +161,7 @@ export const timelineInfo = [
     TextThreeLi3: "",
     IsFourLi: true,
     TextFourLi1: "Certik Audit",
-    TextFourLi2: "$CRUX DEX Listing",
+    TextFourLi2: "CRUX DEX Listing",
     TextFourLi3: "Secure Embassadors",
     TextFourLi4: "Initial Marketing",
     img: HomeDemo2RoadmapIcons3,
@@ -179,7 +179,7 @@ export const timelineInfo = [
     TextThreeLi3: "",
     IsFourLi: true,
     TextFourLi1: "Staking Platform",
-    TextFourLi2: "$CRUX CEX Listing",
+    TextFourLi2: "CRUX CEX Listing",
     TextFourLi3: "Release of  pre-ALPHA stage of the game to public",
     TextFourLi4: "Smart contracts development for the game",
     img: HomeDemo2RoadmapIcons3,
@@ -200,7 +200,7 @@ export const timelineInfo = [
     TextFourLi1: "NFT Marketplace Release",
     TextFourLi2: "Weapons NFT Collection",
     TextFourLi3: "Lands and Buldings NFT collection",
-    TextFourLi4: "$CRUX CEX Listing",
+    TextFourLi4: "CRUX CEX Listing",
     img: HomeDemo2RoadmapIcons5,
   },
   {
@@ -219,7 +219,7 @@ export const timelineInfo = [
     TextFourLi1: "ALPHA version release",
     TextFourLi2: "Esports sponsored team creation",
     TextFourLi3: "Tournaments with rewards",
-    TextFourLi4: "$CRUX CEX Listing",
+    TextFourLi4: "CRUX CEX Listing",
     img: HomeDemo2RoadmapIcons6,
   },
   {
@@ -238,7 +238,7 @@ export const timelineInfo = [
     TextFourLi1: "pre-BETA version Release",
     TextFourLi2: "Esports Platforms Partnerships",
     TextFourLi3: "Game Teasers for advertising",
-    TextFourLi4: "$CRUX CEX listings",
+    TextFourLi4: "CRUX CEX listings",
     img: HomeDemo2RoadmapIcons5,
   },
   {
@@ -288,12 +288,12 @@ export const SocialListIco = [
 
 export const FQAInfo = [
   {
-    text: "What is $CRUX?",
+    text: "What is CRUX?",
     ID: "Q1",
-    answer: "$CRUX is a BSC Crypto Token that powers our survival game. Each transaction that occurs with $CRUX has a fee of 8%, 2% is allocated to existing holders, 2% is added to Liquidity and 4% is added to the project growth and sustainability. With $CRUX you earn more tokens just simply by holding.",
+    answer: "CRUX is a BSC Crypto Token that powers our survival game. Each transaction that occurs with CRUX has a fee of 8%, 2% is allocated to existing holders, 2% is added to Liquidity and 4% is added to the project growth and sustainability. With CRUX you earn more tokens just simply by holding.",
   },
   {
-    text: "When $CRUX will be available to the public?",
+    text: "When CRUX will be available to the public?",
     ID: "Q2",
     answer: "Currently we are still gathering our first community and creating our social fingerprint. We predict the pre-sale and IDO to be on December however it depends on our traction on that time. Be sure to join our Telegram for more info and dates as soon as they are confirmed.",
   },
@@ -308,7 +308,7 @@ export const FQAInfo = [
     answer: "In onder to provide safety for investors, as soon as we start our IDO we will lock our liquidity for a period of 4 years, this will give safety to future investors.",
   },
   {
-    text: "Why $CRUX takes 8% fee on buying and selling?",
+    text: "Why CRUX takes 8% fee on buying and selling?",
     ID: "Q5",
     answer: "Our protocol implies a 8% fee, being 2% for the holders, 2% added to Liquidity, and 4% added to project growth.",
   },

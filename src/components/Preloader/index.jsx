@@ -14,7 +14,7 @@ function PreloaderContainer(){
 	            <meta charSet="utf-8" />
 	            <meta
 	                name="description"
-	                content="$CRUX powers a Survival MMORPG Play-to-Earn P2E Game with a token-based economy on  BSC. Earn more CRUX tokens  just by holding. "
+	                content="CRUX powers a Survival MMORPG Play-to-Earn P2E Game with a token-based economy on  BSC. Earn more CRUX tokens  just by holding. "
 	            />
 	            <meta
 	                name="viewport"

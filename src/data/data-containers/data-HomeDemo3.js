@@ -337,7 +337,7 @@ export const SocialListIco = [
 
 export const FQAInfo = [
     {
-        text:'What is $CRUX?',
+        text:'What is CRUX?',
         ID:'Q1'
     },
     {
