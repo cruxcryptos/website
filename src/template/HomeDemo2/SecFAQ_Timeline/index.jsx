@@ -43,6 +43,7 @@ const SecFAQ_Timeline = ({ FQAInfo, DocElementTitle }) => {
                   border: '1px solid rgb(175, 54, 54)',
                   boxShadow: ' -1px 2px 30px -2px rgb(175 54 54)',
                 }}
+                alt='faqs crux'
               />
             </div>
           </div>

@@ -53,7 +53,7 @@ const Timeline = ({
 				}
           </span>
           <span className="roadmap_img">
-            <img className="icon_roadmap_fix" src={img} alt="" />
+            <img className="icon_roadmap_fix" src={img} alt="roadmap crux" />
           </span>
         </span>
       </div>

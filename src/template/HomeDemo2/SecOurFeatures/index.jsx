@@ -23,8 +23,8 @@ const SecOurFeatures = ({data , imgPhone , Rings}) => {
                 </div>
                 <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12">
                     <div className="image-box">
-                        <img src={imgPhone} className="center-block img-responsive phone-img" alt="" />
-                        <img src={Rings} className="center-block img-responsive rings " alt="" />
+                        <img src={imgPhone} className="center-block img-responsive phone-img" alt="crux1" />
+                        <img src={Rings} className="center-block img-responsive rings " alt="crux2" />
                     </div>
                 </div>
             </div>

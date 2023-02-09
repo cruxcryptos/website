@@ -15,7 +15,7 @@ const SecWelcomeMeter = () => {
                   boxShadow: ' -1px 2px 30px -2px rgb(175 54 54)',
                   padding:'12px'
                 }}>
-            <img src={imageGif} className="img-responsive center-block" alt="" />
+            <img src={imageGif} className="img-responsive center-block" alt="aboutuscrux" />
             <div className="growing-company text-center mt-30">
                 <p>* Rendered on <span className="counter">PRE-ALPHA Development</span> stage</p>
             </div>

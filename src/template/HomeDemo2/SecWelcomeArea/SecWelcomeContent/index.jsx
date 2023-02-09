@@ -12,7 +12,7 @@ function SecWelcomeContent({ img }) {
       <div className="promo-section">
         <div className="integration-link">
           <span className="integration-icon">
-            <img src={imagedollar} width="24" height="24" alt="" />
+            <img src={imagedollar} width="24" height="24" alt="fundo crux metaverse" />
           </span>
           <span className="integration-text">
             Pre-sale date to be annouced soon.

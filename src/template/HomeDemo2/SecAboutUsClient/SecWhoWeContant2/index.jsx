@@ -9,7 +9,7 @@ const SecWhoWeContant = () => {
         <div className="who-we-contant zombie">
           
         <div className='zombie' data-aos="fade-up">
-            <img src={image}></img>
+            <img src={image} alt="play to earn crux"></img>
           </div>
             <h4 data-aos="fade-up">P2E - Play to Earn</h4>
             <p data-aos="fade-up">In an abandoned world in the metaverse, natural resources are valuable and scarce. While players compete against the undead, a crypto economy was born, CRUX allows players to buy in-game items , some of them being shelters , guns and ammo.</p>

@@ -19,7 +19,7 @@ const SecWelcomeMeter2 = ({ img }) => {
             style={{ borderRadius: '12px' }}
             src={imageGif}
             className="img-responsive center-block moremargin"
-            alt=""
+            alt="gameplay crux"
           />
           <div className="growing-company text-center mt-30">
             <p>

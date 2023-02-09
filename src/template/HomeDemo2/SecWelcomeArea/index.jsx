@@ -41,7 +41,7 @@ const SecWelcomeArea = () => {
             
             glareBorderRadius={'16px'}
           >
-              <img className='boxgifhero' style={{borderRadius:'12px', border:'1px solid #C6841B', opacity:'0.9'}}src={imageGif}></img>
+              <img className='boxgifhero' style={{borderRadius:'12px', border:'1px solid #C6841B', opacity:'0.9'}}src={imageGif} alt='crux gif metaverse'></img>
               </Tilt>
             </div>
             

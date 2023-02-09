@@ -26,7 +26,7 @@ const SecOurServices = ({ data }) => {
           >
               <div className="service_single_content text-left mb-100">
                 <div className="service_icon">
-                  <img src={image3} alt="" />
+                  <img src={image3} alt="reflections crux" />
                 </div>
                 <div className="title-holder-tokenomics">
                   <h4 className="tokenomics-title">2% - REFLECTIONS</h4>
@@ -53,7 +53,7 @@ const SecOurServices = ({ data }) => {
           >
               <div className="service_single_content text-left mb-100" >
                 <div className="service_icon">
-                  <img src={image2} alt="" />
+                  <img src={image2} alt="liquidity crux" />
                 </div>
                 <div className="title-holder-tokenomics">
                   <h4 className="tokenomics-title">2% - LIQUIDITY</h4>
@@ -80,7 +80,7 @@ const SecOurServices = ({ data }) => {
           >
               <div className="service_single_content text-left mb-100" >
                 <div className="service_icon">
-                  <img src={image1} alt="" />
+                  <img src={image1} alt="growth crux" />
                 </div>
 
                 <div className="title-holder-tokenomics">

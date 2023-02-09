@@ -14,7 +14,7 @@ const SecDistribution = ({ img, data }) => {
         <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
           <h2 className="text-center mb-30">Allocation</h2>
           <div className="token-allocation">
-            <img src={img} className="center-block" alt="" />
+            <img src={img} className="center-block" alt="tokenomics_crux" />
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" 
