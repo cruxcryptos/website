@@ -8,7 +8,7 @@ import  SecHorizSocial  from './../../SecHorizontalSocial/index'
 function SecWelcomeContent({ img }) {
   return (
     <div className="welcome-content">
-      <h1 style={{display:'none'}} >CRUX Crypto - MMORPG Play-to-Earn Metaverse Game - Survival</h1>
+      <h1 style={{display:'none'}} >CRUX Cryptos - MMORPG Play-to-Earn Metaverse Game - Survival</h1>
       <div className="promo-section">
         <div className="integration-link">
           <span className="integration-icon">
