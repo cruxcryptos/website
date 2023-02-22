@@ -71,7 +71,6 @@ let HomeDemo2 = () => {
         <SecDistribution img={HomeDemo2Allocation} data={TokenText} />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo2BgRoadmap} />
         <SecSubscribe />
-      
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
         <SecTeam data={TeamMember} />
         
