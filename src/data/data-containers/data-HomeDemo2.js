@@ -131,7 +131,7 @@ export const timelineInfo = [
   {
     left: "28%",
     ClassName: "data_cir cir_1",
-    date: "December 2022",
+    date: "Mar 2023",
     IsSpan: false,
     TextSpan: "",
     IsTowLi: false,
@@ -151,7 +151,7 @@ export const timelineInfo = [
   {
     left: "35%",
     ClassName: "data_cir cir_2",
-    date: "JAN-FEB 2023",
+    date: "Apr-May 2023",
     IsSpan: false,
     TextSpan: "",
     IsTowLi: false,
@@ -169,7 +169,7 @@ export const timelineInfo = [
   {
     left: "48%",
     ClassName: "data_cir cir_2",
-    date: "Q1 2023",
+    date: "Q2 2023",
     IsSpan: false,
     TextSpan: "",
     IsTowLi: false,
@@ -187,7 +187,7 @@ export const timelineInfo = [
   {
     left: "60%",
     ClassName: "data_cir cir_4 red_c",
-    date: "Q2 2023",
+    date: "Q3 2023",
     IsSpan: false,
     IsSpan: false,
     TextSpan: "",
@@ -206,7 +206,7 @@ export const timelineInfo = [
   {
     left: "72%",
     ClassName: "data_cir cir_5 next",
-    date: "Q3 2023",
+    date: "Q4 2023",
     IsSpan: false,
     IsSpan: false,
     TextSpan: "",
