@@ -40,11 +40,11 @@ import SecAiPowered from './SecAiPowered';
 import SecTrustPlatform from './SecTrustPlatform';
 let HomeDemo2 = () => {
   useEffect(() => {
-    handelTitle('CRUX CRYPTOS - MMORPG P2E METAVERSE')
+    handelTitle('CRUX CRYPTOS - Join the Revolution of AI-powered Gaming with CRUX CRYPTO.')
   }, [])
 
   useEffect(() => {
-    if (document.title === 'CRUX CRYPTOS - MMORPG P2E METAVERSE') {
+    if (document.title === 'CRUX CRYPTOS - Join the Revolution of AI-powered Gaming with CRUX CRYPTO.') {
       document.getElementsByTagName('body')[0].style.backgroundImage =
         'linear-gradient(to right, #000000, #000000)'
     } else {

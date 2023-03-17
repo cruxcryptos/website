@@ -2,14 +2,14 @@ import mainlogo from '../../../../assets/img/core-img/crux_logo.png'
 import imagedollar from '../../../../assets/img/svg/img-dollar.png'
 
 import { VerticalSocial } from './../../../../data/data-containers/data-HomeDemo2'
-
+import { Player } from '@lottiefiles/react-lottie-player'
 import SecHorizSocial from './../../SecHorizontalSocial/index'
 
 function SecWelcomeContent({ img }) {
   return (
     <div className="welcome-content">
       <h1 style={{ display: 'none' }}>
-        CRUX Cryptos - MMORPG Play-to-Earn Metaverse Game - Survival
+      CRUX CRYPTOS - Join the Revolution of AI-powered Gaming with CRUX CRYPTO.
       </h1>
       <div className="promo-section">
         <div className="integration-link">
@@ -27,6 +27,15 @@ function SecWelcomeContent({ img }) {
         </div>
       </div>
       <div className="bgpretohero">
+        <div>
+         <Player
+            src="https://assets8.lottiefiles.com/packages/lf20_6e0qqtpa.json"
+            className="player"
+            loop
+            autoplay
+            style={{margin:'auto', width:'30%'}}
+          />
+        </div>
         <h1 className="hero-title">The Future of Play to Earn Powered by AI</h1>
         <p className="hero-desc">
           CRUX is a community driven token that powers a financial platform,

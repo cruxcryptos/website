@@ -31,7 +31,7 @@ const SecWelcomeArea = () => {
               <SecWelcomeContent img={HomeDemo2Dollar} />
             </div>
 
-            <div className="col-12 col-lg-6 col-md-12" style={{paddingTop:'600px'}}>
+            <div className="col-12 col-lg-6 col-md-12" style={{paddingTop:'500px'}}>
             <Tilt
             glareEnable={false}
             tiltMaxAngleX={20}
