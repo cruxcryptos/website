@@ -51,6 +51,7 @@ export const VerticalSocial = [
   { nameIco: "fa fa-youtube" , linkref: 'https://www.youtube.com/@cruxcryptommorpg'},
   { nameIco: "fa fa-github", linkref: 'https://github.com/CruxCrypto' },
   { nameIco: "fa fa-envelope" , linkref: 'mailto:info@cruxcryptos.com'},
+  { nameIco: "fa fa-instagram", linkref: 'https://www.instagram.com/crux.cryptos/' },
 ];
 
 export const SingleCoolFact = [
@@ -160,10 +161,11 @@ export const timelineInfo = [
     TextThreeLi2: "",
     TextThreeLi3: "",
     IsFourLi: true,
-    TextFourLi1: "Certik Audit",
+    TextFourLi1: "Ai Platform development begins",
     TextFourLi2: "CRUX DEX Listing",
     TextFourLi3: "Secure Embassadors",
     TextFourLi4: "Initial Marketing",
+    TextFourLi4: "Certik Audit",
     img: HomeDemo2RoadmapIcons3,
   },
   {
@@ -201,6 +203,7 @@ export const timelineInfo = [
     TextFourLi2: "Weapons NFT Collection",
     TextFourLi3: "Lands and Buldings NFT collection",
     TextFourLi4: "CRUX CEX Listing",
+    TextFourLi5: "Ai Platform Beta Test",
     img: HomeDemo2RoadmapIcons5,
   },
   {
@@ -239,6 +242,7 @@ export const timelineInfo = [
     TextFourLi2: "Esports Platforms Partnerships",
     TextFourLi3: "Game Teasers for advertising",
     TextFourLi4: "CRUX CEX listings",
+    TextFourLi5: "Ai Platform Release",
     img: HomeDemo2RoadmapIcons5,
   },
   {
@@ -326,6 +330,16 @@ export const FQAInfo = [
     text: "What platforms the game will be supported?",
     ID: "Q8",
     answer: "Our initial platform will be only PC.",
+  },
+  {
+    text: "What kind of data does the platform use to analyze the cryptocurrency markets?",
+    ID: "Q9",
+    answer: "Our platform uses a combination of historical price data, real-time market trends, and sentiment analysis to provide insights on the cryptocurrency markets. Our proprietary algorithms are designed to identify patterns and trends to help investors make informed decisions.",
+  },
+  {
+    text: "How accurate are the platform's market predictions?",
+    ID: "Q10",
+    answer: "While we cannot guarantee the accuracy of our market predictions, our algorithms are constantly being refined and improved to provide the most reliable insights possible. Our roadmap includes ongoing research and development to enhance our analysis capabilities and ensure our users have access to the most up-to-date and accurate information.",
   },
 ];
 

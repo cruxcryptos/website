@@ -48,7 +48,6 @@ const Header = () => {
                   <ul id="nav">
                     <li><a onClick={moveSmooth} href="#home">Home</a></li>
                     <li><a onClick={moveSmooth} href="#highlights">HIGHLIGHTS</a></li>
-                    <li><a onClick={moveSmooth} href="#about">Story</a></li>
                     <li><a onClick={moveSmooth} href="#gameplay">GAMEPLAY</a></li>
                     <li><a onClick={moveSmooth} href="#services">tokenomics</a></li>
                     <li><a onClick={moveSmooth} href="#roadmap">Roadmap</a></li>

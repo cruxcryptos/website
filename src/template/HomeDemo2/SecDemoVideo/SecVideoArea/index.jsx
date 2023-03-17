@@ -21,7 +21,7 @@ const SecVideoArea = ({ img }) => {
       data-aos="fade-up"
       style={{zIndex:'20'}}
     >
-      <Embedvideo url={'https://www.youtube.com/watch?v=xYGzTBljcfY'} />
+      <Embedvideo url={'https://www.youtube.com/watch?v=yKlM2DZaG1I'} />
     </div>
   )
 }
