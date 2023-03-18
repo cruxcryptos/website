@@ -11,21 +11,6 @@ function SecWelcomeContent({ img }) {
       <h1 style={{ display: 'none' }}>
       CRUX CRYPTOS - Join the Revolution of AI-powered Gaming with CRUX CRYPTO.
       </h1>
-      <div className="promo-section">
-        <div className="integration-link">
-          <span className="integration-icon">
-            <img
-              src={imagedollar}
-              width="24"
-              height="24"
-              alt="fundo crux metaverse"
-            />
-          </span>
-          <span className="integration-text">
-            Pre-sale date to be annouced soon.
-          </span>
-        </div>
-      </div>
       <div className="bgpretohero">
         <div>
          <Player
