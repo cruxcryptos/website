@@ -49,6 +49,11 @@ function SecWelcomeContent({ img }) {
           <span className="statusspan">Current Status:</span> Gathering initial
           community for ICO.
         </p>
+        <div className="dream-btn-group centeredButtons" style={{paddingBottom:'22px'}}>
+          <a href="https://crux-mmorpg.gitbook.io/" className="btn dream-btn3 mr-3">
+            Whitepaper
+          </a>
+        </div>
         <div className="dream-btn-group centeredButtons">
           <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
             Join our telegram
