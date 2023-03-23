@@ -11,7 +11,7 @@ function SecWelcomeContent({ img }) {
       <h1 style={{ display: 'none' }}>
       CRUX CRYPTOS - Join the Revolution of AI-powered Gaming with CRUX CRYPTO.
       </h1>
-      <div className="bgpretohero">
+      <div className="bgpretohero" style={{paddingTop:'70px'}}>
         <div>
          <Player
             src="https://assets8.lottiefiles.com/packages/lf20_6e0qqtpa.json"
