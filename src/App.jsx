@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 import './assets/css/bootstrap.min.css'
 import './assets/css/General.css'
 import './assets/css/responsive.css'
+import ApiSupply from './data/ApiSupply'
 
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 
@@ -27,7 +28,8 @@ const App = () => {
         />
       </Helmet>
       <Switch>
-        <Route path="/" component={HomeDemo2} />
+        <Route exact path="/" component={HomeDemo2} />
+        <Route path="/totalsupply" component={ApiSupply} />
       </Switch>
     </div>
   )
