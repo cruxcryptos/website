@@ -31,8 +31,7 @@ function SecWelcomeContent({ img }) {
           stay alive.
         </p>
         <p className="hero-desc">
-          <span className="statusspan">Current Status:</span> Gathering initial
-          community for ICO.
+          <span className="statusspan">Current Status:</span> <br/><span style={{fontWeight:600}}>ICO - 16th April at PinkSale</span><br/><span style={{fontWeight:600, color:'yellow'}}>Join telegram for info.</span>
         </p>
         <div className="dream-btn-group centeredButtons" style={{paddingBottom:'22px'}}>
           <a href="https://crux-mmorpg.gitbook.io/" className="btn dream-btn3 mr-3">
