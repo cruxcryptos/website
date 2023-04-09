@@ -299,12 +299,12 @@ export const FQAInfo = [
   {
     text: "When CRUX will be available to the public?",
     ID: "Q2",
-    answer: "Currently we are still gathering our first community and creating our social fingerprint. We predict the pre-sale and IDO to be on December however it depends on our traction on that time. Be sure to join our Telegram for more info and dates as soon as they are confirmed.",
+    answer: "16th April on PinkSale",
   },
   {
-    text: "What and when is the pre-sale?",
+    text: "What and when is the public ICO?",
     ID: "Q3",
-    answer: "Pre-sale is not confirmed yet but expected to be early December. More info on our telegram.",
+    answer: "16th April on PinkSale . More info on our telegram.",
   },
   {
     text: "Is the liquidity Locked?",
