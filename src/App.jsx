@@ -28,7 +28,7 @@ const App = () => {
         />
       </Helmet>
       <Switch>
-        <Route exact path="/" component={HomeDemo2} />
+        <Route path="/" component={HomeDemo2} />
         <Route path="/totalsupply" component={ApiSupply} />
       </Switch>
     </div>
