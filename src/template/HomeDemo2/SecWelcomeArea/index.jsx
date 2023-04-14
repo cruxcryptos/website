@@ -2,7 +2,7 @@ import { HomeDemo2Dollar } from '../../../utils/allImgs'
 
 import SecWelcomeContent from './SecWelcomeContent'
 import imageGif from './../../../assets/img/gifs/gif_crux_gameplay.gif'
-import imageICO from './../../../assets/img/crux_ico.jpg'
+import imageICO from './../../../assets/img/crux_ico.png'
 
 import Tilt from 'react-parallax-tilt'
 
