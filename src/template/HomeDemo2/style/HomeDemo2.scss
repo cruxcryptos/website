@@ -12,3 +12,8 @@
 @use "partners2";
 @use "BlogArea2";
 @use "Contact2";
+@font-face {
+  font-family: "BakbakOneRegular"; /*Can be any text*/
+  src: local("BakbakOneRegular"),
+    url("./../../../assets/fonts/BakbakOneRegular.woff") format("woff");
+}

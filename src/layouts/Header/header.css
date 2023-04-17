@@ -22,7 +22,7 @@
 }
 
 .dark.classy-nav-container {
-    background-color: transparent;
+    background-color: #fff;
 }
 
 .classy-navbar {
@@ -31,12 +31,14 @@
 }
 
 .classynav ul li a {
+    font-size: 16px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
 }
 
 .classynav ul li a:hover{
-    color: #fff;
+    color: #F7C347;
 }
 
 .classynav ul li .megamenu li a {
@@ -45,8 +47,9 @@
 
 .btn:not(:disabled):not(.disabled){
     cursor: pointer;
-    color: #fff;
-    border: 2px solid #d82424;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #E6791B;
     border-radius: 100px;
 }
 
@@ -56,21 +59,21 @@
 }
 
 .classy-nav-container{
-    background-color: transparent !important ;
+    background-color: #fff !important ;
     transition: all .7s;
     padding: 10px 0;
 }
 
 .classy-nav-container.sticky{
-    background-color: #070709 !important;
+    background-color: #fff !important;
 }
 
 @media(max-width: 991px) {
     #nav{
-        background-color: #000 !important;
+        background-color: #fff !important;
     }
     .classy-navbar .classy-menu{
-        background-color: #000 !important;
+        background-color: #fff !important;
     }
     .classynav>ul>li>a{
         background-color: transparent !important;

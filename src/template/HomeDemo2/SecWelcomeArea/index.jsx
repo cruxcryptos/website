@@ -1,6 +1,6 @@
 import { HomeDemo2Dollar } from '../../../utils/allImgs'
 
-import SecWelcomeContent from './SecWelcomeContent'
+import {SecWelcomeContent,SecWelcomeContent2} from './SecWelcomeContent'
 import imageGif from './../../../assets/img/gifs/gif_crux_gameplay.gif'
 import imageICO from './../../../assets/img/crux_ico.png'
 
@@ -29,10 +29,10 @@ const SecWelcomeArea = () => {
             className="row h-100 align-items-center"
           >
             <div className="col-12 col-lg-6 col-md-12">
-              <SecWelcomeContent img={HomeDemo2Dollar} />
+              <SecWelcomeContent2 img={HomeDemo2Dollar} />
             </div>
 
-            <div className="col-12 col-lg-6 col-md-12" style={{paddingTop:'500px'}}>
+            {/* <div className="col-12 col-lg-6 col-md-12" style={{paddingTop:'500px'}}>
             <Tilt
             glareEnable={false}
             tiltMaxAngleX={20}
@@ -45,7 +45,7 @@ const SecWelcomeArea = () => {
           <img className='boxgifhero' style={{marginTop:'-10px',borderRadius:'12px', border:'1px solid #C6841B', opacity:'0.9',padding:'12px',width:'90%'}}src={imageICO} alt='crux gif metaverse'></img>
               
               </Tilt>
-            </div>
+            </div> */}
             
           </div>
         </div>

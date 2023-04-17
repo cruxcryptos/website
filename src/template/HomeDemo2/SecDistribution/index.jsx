@@ -6,9 +6,12 @@ const SecDistribution = ({ img, data }) => {
   return (
     <section className="token-distribution ">
       <div className="container">
-        <SectionHeading
-          title="CRUX ICO Distribution"
-          text="Upon releasing CRUX to the public, for the sustainability and growth we decided to split the supply in the following way."
+        <SectionHeading        title={[
+          <span style={{ color: '#E6791B' }}> $CRUX</span>,
+          ' METRICS',
+
+        ]}
+          text2="Upon releasing CRUX to the public, for the sustainability and growth we decided to split the supply in the following way."
         />
 
         <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">

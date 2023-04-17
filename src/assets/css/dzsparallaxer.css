@@ -431,7 +431,7 @@
 .preloader-semicircles {
   width: 15px;
   height: 15px;
-  background: rgba(230, 50, 50, 0.9);
+  background: #E6791B;
   border-radius: 50px;
   position: absolute;
   top: 50%;
@@ -450,8 +450,8 @@ body .dzsparallaxer .preloader-semicircles {
   position: absolute;
   width: 25px;
   height: 25px;
-  border-top: 5px solid #c83232;
-  border-bottom: 5px solid #c83232;
+  border-top: 5px solid #E6791B;
+  border-bottom: 5px solid #E6791B;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-radius: 25px;

@@ -12,8 +12,7 @@
 
 .HomeDemo2 .Home1WelcomeAreaIMG {
   min-height: 100%; //background: url(../../../assets/img/bg-img/bg-5.png) no-repeat center center fixed;
-
-  background: #000;
+  background: #fff;
 }
 
 .HomeDemo2 .hero-content {
@@ -57,20 +56,9 @@
   text-transform: uppercase !important;
   background-size: 200% auto !important;
   color: #fff !important;
-  box-shadow: 0 0 0 0 #e7c013be;
+  box-shadow: 0 0 0 0 #eb8933;
   border-radius: 100px !important;
-  background-image: -webkit-linear-gradient(
-    left,
-    #21d397 0%,
-    #7450fe 51%,
-    #21d397 100%
-  );
-  background-image: linear-gradient(
-    to right,
-    #21d397 0%,
-    #7450fe 51%,
-    #21d397 100%
-  );
+  background-color: #eb8933;
   -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1) !important;
   -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1) !important;
   -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1) !important;
@@ -80,7 +68,7 @@
 
 .dream-btn:hover {
   background-position: right center;
-  color: #fff;
+  color: #ffa747;
   -webkit-animation: none;
   -moz-animation: none;
   -ms-animation: none;
@@ -148,7 +136,7 @@
 .HomeDemo2 .welcome-content {
   position: relative;
   z-index: 1;
-  margin-top: 90px;
+  margin-top: 160px;
 }
 
 .HomeDemo2 .promo-section {
@@ -178,7 +166,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: rgba(230, 121, 27, 0.9);
   border-radius: 100px;
   opacity: 0.9;
 }
@@ -187,6 +175,8 @@
 }
 .HomeDemo2 .integration-text {
   margin: 0 7px 0 0;
+  color: #000;
+  font-weight: bold;
 }
 .HomeDemo2 .integration-link > * {
   position: relative;
@@ -298,29 +288,30 @@
   margin-bottom: 20px;
 }
 .HomeDemo2 .welcome-content h1 {
-  font-size: 38px;
-  font-weight: 500;
+  font-family: "BakbakOneRegular", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
   margin-bottom: 20px;
-  color: #fff;
-  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
-}
-
-.HomeDemo2 .welcome-content p {
-  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  text-rendering: optimizeLegibility;
+  color: #000;
+  line-height: 70px;
 }
 
 .HomeDemo2 .welcome-content h1.artficial {
   font-size: 38px;
 }
 .HomeDemo2 .welcome-content p {
-  font-size: 18px;
-  color: #fff;
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #000;
   margin-bottom: 30px;
 }
 
 .HomeDemo2 .who-we-contant h4 {
-  color: #fff;
-  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  font-family: "BakbakOneRegular", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #000;
 }
 
 .HomeDemo2 p.artficial {
@@ -372,7 +363,6 @@
   top: -30px;
 }
 
-
 .player-wrapper {
   position: relative;
   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
@@ -384,8 +374,8 @@
   left: 0;
 }
 
-.extra{
-    margin-bottom: 40px;
+.extra {
+  margin-bottom: 40px;
 }
 
 .HomeDemo2 .video-icon {

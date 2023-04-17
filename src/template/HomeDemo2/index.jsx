@@ -66,7 +66,7 @@ let HomeDemo2 = () => {
 
         <SecTrust data={SingleCoolFact} />
         
-        <SecAboutUsClient img={HomeDemo2About1} />
+        {/* <SecAboutUsClient img={HomeDemo2About1} /> */}
         
         <SecDemoVideo img={HomeDemo2VideoBg4} />
 
@@ -78,7 +78,6 @@ let HomeDemo2 = () => {
         <SecOurServices data={service_single_content} />
         <SecDistribution img={HomeDemo2Allocation} data={TokenText} />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo2BgRoadmap} />
-        <SecSubscribe />
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
         <SecTeam data={TeamMember} />
         

@@ -23,10 +23,10 @@ const SecSingleCoolFact = ({ data }) => {
           >
             <div className="trust-item text-center">
               <div className="ico-platform-logo">
-                <img src={gifmulti} alt="land" />
+                <img src={gifmulti} alt="land"  style={{borderRadius:'12px'}}/>
               </div>
               <h4>Multiplayer</h4>
-              <p>
+              <p style={{color:'black'}}>
                 Play with your friends, either by grouping as a team to fight
                 the undead or compete between each others for resources and
                 weapons.
@@ -46,11 +46,11 @@ const SecSingleCoolFact = ({ data }) => {
             glareBorderRadius={'16px'}
           >
           <div className="trust-item text-center">
-            <div className="ico-platform-logo">
+            <div className="ico-platform-logo"  style={{borderRadius:'12px'}}>
               <img src={gifquests} alt="land" />
             </div>
             <h4>P2E Quests</h4>
-            <p>
+            <p style={{color:'black'}}>
               Our play to earn system has missions that once accomplished, you win
               rewards that can be claimable, sold or swapped on the NFT
               marketplace.
@@ -69,11 +69,11 @@ const SecSingleCoolFact = ({ data }) => {
             glareBorderRadius={'16px'}
           >
           <div className="trust-item text-center">
-            <div className="ico-platform-logo">
+            <div className="ico-platform-logo"  style={{borderRadius:'12px'}}>
               <img src={gifunique} alt="land" />
             </div>
             <h4>Unique Assets</h4>
-            <p>
+            <p style={{color:'black'}}>
               Leverage your skills with unique items on the journey against the
               undead. They provide increased stats to make you stronger.
             </p>
@@ -94,11 +94,11 @@ const SecSingleCoolFact = ({ data }) => {
             glareBorderRadius={'16px'}
           >
           <div className="trust-item text-center">
-            <div className="ico-platform-logo">
+            <div className="ico-platform-logo"  style={{borderRadius:'12px'}}>
               <img src={gifstaking} alt="land" />
             </div>
             <h4>Staking In-Game</h4>
-            <p>
+            <p style={{color:'black'}}>
               Our crypto economy includes a stake system where players will earn
               rewards based on their stake with CRUX.{' '}
             </p>
@@ -116,11 +116,11 @@ const SecSingleCoolFact = ({ data }) => {
             glareBorderRadius={'16px'}
           >
           <div className="trust-item text-center">
-            <div className="ico-platform-logo">
+            <div className="ico-platform-logo"  style={{borderRadius:'12px'}}>
               <img src={gifland} alt="land" />
             </div>
             <h4>Land and Plots</h4>
-            <p>
+            <p style={{color:'black'}}>
               To protect yourself, you can own a land and build on it. From
               baracks to military headquarters.
             </p>
@@ -138,11 +138,11 @@ const SecSingleCoolFact = ({ data }) => {
             glareBorderRadius={'16px'}
           >
           <div className="trust-item text-center">
-            <div className="ico-platform-logo">
+            <div className="ico-platform-logo"  style={{borderRadius:'12px'}}>
               <img src={gifnft} alt="land" />
             </div>
             <h4>NFT Marketplace</h4>
-            <p>
+            <p style={{color:'black'}}>
               Platform that will enable users to trade/buy/sell assets obtained
               on the game.
             </p>

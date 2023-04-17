@@ -8,9 +8,14 @@ const SecTrustPlatform = ({ data }) => {
     <section className="trust-section2 section-padding-100"  id='highlights'>
       <IconBase></IconBase>
       <SectionHeading
-        title="Revolutionizing Cryptocurrency Trading with AI"
-        text="A unique platform that leverages the power of artificial intelligence and machine learning to provide real-time market analysis, social sentiment, and on-chain data for traders to make informed decisions."
-        text2=""
+        title={[
+          <span style={{ color: '#E6791B' }}> Revolutionizing</span>,
+          ' Cryptocurrency Trading with ',
+          <span style={{ color: '#E6791B' }}> Ai</span>,
+
+        ]}
+        text2="A unique platform that leverages the power of artificial intelligence and machine learning to provide real-time market analysis, social sentiment, and on-chain data for traders to make informed decisions."
+        
       />
 
       <div className="container">

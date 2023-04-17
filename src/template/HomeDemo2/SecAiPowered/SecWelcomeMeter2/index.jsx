@@ -9,16 +9,25 @@ const SecWelcomeMeter2 = ({ img }) => {
         <div
           className="welcome-meter"
           style={{
-            backgroundColor: '#030303',
-            width:'80%'
+            backgroundColor: '#E6791B',
+            borderRadius: '28px',
+            border: '1px solid #E6791B',
+            boxShadow: ' -1px 2px 30px -2px rgb(175 54 54)',
+            padding: '12px',
           }}
         >
-          <Player
-            src="https://assets6.lottiefiles.com/packages/lf20_QfNoy6FscI.json"
-            className="player"
-            loop
-            autoplay
+          <img
+            src={imageGif}
+            style={{width:'100%',paddingTop:'12px'}}
+            className="img-responsive center-block"
+            alt="aboutuscrux"
           />
+          <div className="growing-company text-center mt-30">
+            <p>
+              * Rendered on{' '}
+              <span className="counter">PRE-ALPHA Development</span> stage
+            </p>
+          </div>
         </div>
       </Tilt>
     </div>

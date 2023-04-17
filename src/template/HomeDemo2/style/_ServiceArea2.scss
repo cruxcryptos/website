@@ -4,16 +4,16 @@
     position: relative;
     z-index: 1;
     padding: 30px 20px 15px;
-    background: #030304f0;
+    background: #ffffffd7;
     border-radius: 20px;
     margin-bottom: 30px;
     padding: 35px 30px;
     transition: 350ms ease;
     position: relative;
     z-index: 55;
-    -webkit-box-shadow: -1px 2px 30px -2px rgba(175,54,54,1);
-    -moz-box-shadow: -1px 2px 30px -2px rgba(175,54,54,1);
-    box-shadow: -1px 2px 30px -2px rgba(175,54,54,1);
+    -webkit-box-shadow: -1px 2px 30px -2px rgb(175, 108, 54);
+    -moz-box-shadow: -1px 2px 30px -2px rgb(175, 108, 54);
+    box-shadow: -1px 2px 30px -2px rgb(175, 108, 54);
 }
 
 .HomeDemo2 .service_single_content .service_icon i {
@@ -42,6 +42,8 @@
     width: 100%;
     text-align: center;
     justify-content: center;
+    color: #000 !important;
+    
 }
 
 .tokenomics-extra-info{

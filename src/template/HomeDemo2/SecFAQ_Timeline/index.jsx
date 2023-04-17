@@ -8,8 +8,12 @@ const SecFAQ_Timeline = ({ FQAInfo, DocElementTitle }) => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-7 col-md-12 mb-5">
-            <SectionHeading
-              title="Frequently Asked Questions"
+            <SectionHeading        title={[
+          <span style={{ color: '#E6791B' }}> Frequently</span>,
+          <span style={{ color: '#fff' }}> Asked</span>,
+          <span style={{ color: '#E6791B' }}> Questions</span>,
+
+        ]}
               text="We decided to open this section to answered FAQs regarding $CRUX. We will build a FAQs page dedicated only to the game ecosystem."
             />
 

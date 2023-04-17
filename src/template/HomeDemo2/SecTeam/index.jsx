@@ -9,11 +9,11 @@ const SecTeam = ({ data }) => {
       id="team"
     >
 
-      <div className="container extrapaddingtop">
+      <div className="container extrapaddingtop" style={{paddingBottom:'22px'}}>
         <div className="row">
           <div className="col-12">
             <SectionHeading
-              title="Our Team"
+              title={<span style={{color:'#E6791B'}}>Our Team</span>}
               text="The heart of CRUX that works behind the scenes. More to be announced. "
             />
           </div>

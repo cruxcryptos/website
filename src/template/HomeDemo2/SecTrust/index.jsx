@@ -6,7 +6,7 @@ const SecTrust = ({ data }) => {
     <div className='bgpreto'>
     <section className="trust-section section-padding-100"  id='highlights'>
       <SectionHeading
-        title="Play to Earn Ecosystem"
+        title={[<span style={{color:'#E6791B'}}>Play-To-Earn </span>,"Ecosystem"]}
         text="Enter our MMOG and help the human race fight against the enemy."
         text2="Our game features the Play to Earn concept, combining a unique economy with a huge world to fight and explore with friends."
       />

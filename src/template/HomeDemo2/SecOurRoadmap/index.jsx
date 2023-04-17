@@ -6,9 +6,8 @@ const SecOurRoadmap = ({data , img}) => {
   return (
     <section className="roadmap section-padding-100" style={{background: `url(${img}) no-repeat center center`, backgroundSize: 'cover'}} id="roadmap">
         <SectionHeading
-            title='Roadmap'
-            text='CRUX has a path already defined and we divided it into stages and quarterly objectives. As we grow our roadmap might also change to grow the project further.'
-        />
+            title={<span style={{color:'#E6791B'}}> Roadmap</span>}
+            text={<span style={{color:'#fff'}}>CRUX has a path already defined and we divided it into stages and quarterly objectives. As we grow our roadmap might also change to grow the project further.</span>}/>
         <div className="container-fluid">
           <div className="row">
             <div className="section_5-content">
