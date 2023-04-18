@@ -98,7 +98,7 @@ function SecWelcomeContent2({ img }) {
         className="dream-btn-group"
         style={{ marginBottom: '10px' }}
       >
-        <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
+        <a href="https://dx.app/dxsaleview?saleID=165&chain=BNB" className="btn dream-btn mr-3">
           GO TO FAIRLAUNCH
         </a>
         <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
