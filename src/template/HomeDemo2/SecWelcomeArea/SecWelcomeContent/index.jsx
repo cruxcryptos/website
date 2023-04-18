@@ -33,7 +33,7 @@ function SecWelcomeContent({ img }) {
         </p>
         <p className="hero-desc">
           <span className="statusspan">Current Status:</span> <br />
-          <span style={{ fontWeight: 600 }}>PRESALE SOON.</span>
+          <span style={{ fontWeight: 600 }}>FAIRLAUNCH NOW</span>
           <br />
           <span style={{ fontWeight: 600, color: 'yellow' }}>
             Join telegram for info.
@@ -79,8 +79,8 @@ function SecWelcomeContent2({ img }) {
           <span className="integration-icon">
             <img src={img} width="24" height="24" alt="" />
           </span>
-          <span className="integration-text">
-            PRESALE SOON TO BE ANNOUNCED ON TELEGRAM
+          <span className="integration-text" style={{color:'yellow'}}>
+            FAIRLAUNCH HAPPENING NOW
           </span>
         </div>
       </div>
@@ -98,6 +98,9 @@ function SecWelcomeContent2({ img }) {
         className="dream-btn-group"
         style={{ marginBottom: '10px' }}
       >
+        <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
+          GO TO FAIRLAUNCH
+        </a>
         <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
           Join our telegram
         </a>
