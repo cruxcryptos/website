@@ -299,12 +299,12 @@ export const FQAInfo = [
   {
     text: "When CRUX will be available to the public?",
     ID: "Q2",
-    answer: "16th April on PinkSale",
+    answer: "19th April on DxSale",
   },
   {
     text: "What and when is the public ICO?",
     ID: "Q3",
-    answer: "16th April on PinkSale . More info on our telegram.",
+    answer: "19th April on DxSale . More info on our telegram.",
   },
   {
     text: "Is the liquidity Locked?",
