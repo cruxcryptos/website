@@ -473,3 +473,106 @@
   z-index: 50;
   opacity: 0.7;
 }
+@media only screen and (max-width: 767px) {
+
+  .HomeDemo2 .hero-content{
+    width: 104%;
+  }
+  .HomeDemo2 .hero-content.transparent{
+    padding-top: 12px;
+  }
+  .HomeDemo2 .welcome-content{
+    margin-top: 110px !important;
+    padding:6px;
+    padding-top:12px;
+    background-color: #ffffff81;
+    border: 1px solid #ffffff81;
+    border-radius: 12px;
+  }
+  .HomeDemo2 .welcome-content h1 {
+    font-size: 46px;
+
+    line-height: 1.2;
+  }
+  .dream-btn-group{
+    text-align: center;
+  }
+
+  .dream-btn-group .btn {
+    margin-top: 6px;
+  }
+  .HomeDemo2 .partners{
+    display: none;
+  }
+  .section-padding-0-100{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .HomeDemo2 .who-we-contant h4{
+    font-size: 36px !important;
+    line-height: 1.2;
+  }
+  .add-margin-gifs{
+    margin-top: 1em !important;
+  }
+  .section-heading h2{
+    font-family: "BakbakOneRegular", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 50px !important;
+    text-rendering: optimizeLegibility !important;
+    color: #000 !important;
+    line-height: 1.2 !important;
+    text-shadow: 0px 0px 0px black, 0 0 0 black, 0 0 0 black !important; 
+    padding-bottom: 12px;
+  }
+  #highlights > div.section-heading.text-center > p:nth-child(2){
+    display: none !important;
+  }
+  .section-heading{
+    margin-bottom: 40px !important
+  }
+  .section-before:before{
+    display: none;
+  }
+  .section-padding-100{
+    padding-bottom: 10px !important;
+  }
+  .section-padding-100-70{
+    padding-bottom: 50px !important;
+  }
+  .HomeDemo2 .token-distribution{
+    padding-top: 0px !important;
+  }
+  .tokenomics-extra-info > p{
+    color:#000
+
+  }
+  #root > div > div.HomeDemo2 > section.token-distribution > div > div.section-heading.text-center > h2{
+    margin-bottom: 0px !important;
+  }
+  #team > div > div:nth-child(1) > div > div > p:nth-child(2){
+    color:#000 !important;
+  }
+  .HomeDemo2 .token-distribution{
+    padding-bottom: 50px !important;
+  }
+  #roadmap > div.section-heading.text-center > h2 {
+    padding-top: 23px !important;
+  }
+  #faqs{
+    margin-top: 0px !important;
+  }
+  #faqs > div > div > div.col-12.col-lg-7.col-md-12.mb-5 > div.section-heading.text-center{
+    padding-top: 24px !important;
+  }
+  .classy-navbar-toggler .navbarToggler span{
+    background-color: #eb8933 !important;
+  }
+  .integration-text{
+    color: #eb8933 !important;
+  }
+  .HomeDemo2 .integration-link:before{
+    background-color:#fff !important;
+    border: 1px solid #eb8933 !important;
+  }
+}
