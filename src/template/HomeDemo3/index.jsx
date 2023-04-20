@@ -63,14 +63,14 @@ let HomeDemo3 = () => {
   return (
     <>
       <Header />
-      <div className="HomeDemo3">
+      <div className="HomeDemo3">{/* 
         <SecWelcomeArea />
         <SecVerticalSocial data={VerticalSocial} />
         <SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />
         <SecTrust data={SingleCoolFact} />
-        <SecAboutUsClient img={HomeDemo3About1} />
+        <SecAboutUsClient img={HomeDemo3About1} /> */}
         <SecAboutUs img={HomeDemo3Solution} />
-        <SecDemoVideo img={HomeDemo3VideoBg4} />
+{/*         <SecDemoVideo img={HomeDemo3VideoBg4} />
         <div className="clearfix" />
         <SecOurServices data={service_single_content} />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} />
@@ -79,7 +79,7 @@ let HomeDemo3 = () => {
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
         <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
         <SecTeam data={TeamMember} />
-        <SecPartners data={PartnersData} />
+        <SecPartners data={PartnersData} /> */}
       </div>
       <Footer />
     </>

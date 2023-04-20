@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import { Route, Switch } from 'react-router-dom'
 import HomeDemo2 from './template/HomeDemo2'
+import HomeDemo2Audit from './template/HomeDemo2Audit'
 import 'aos/dist/aos.css'
 import './assets/css/bootstrap.min.css'
 import './assets/css/General.css'
@@ -28,6 +29,8 @@ const App = () => {
         />
       </Helmet>
       <Switch>
+        <Route exact path="/audit" component={HomeDemo2Audit} />
+        <Route exact path="/totalsupply" component={ApiSupply} />
         <Route path="/" component={HomeDemo2} />
         <Route path="/totalsupply" component={ApiSupply} />
       </Switch>
