@@ -30,8 +30,6 @@ const App = () => {
       </Helmet>
       <Switch>
         <Route path="/audit" component={HomeDemo2Audit}/>
-        <Route path="/audited" component={HomeDemo2Audit}/>
-        <Route path="/auditfusiontech" component={HomeDemo2Audit}/>
         <Route exact path="/" component={HomeDemo2} />
       </Switch>
     </div>
