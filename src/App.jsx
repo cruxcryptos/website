@@ -29,17 +29,10 @@ const App = () => {
         />
       </Helmet>
       <Switch>
-        <Route exact path="/" component={HomeDemo2} />
-        <Route exact path="/audit">
-          <HomeDemo2Audit />
-        </Route>
-        <Route exact path="/audited">
-          <HomeDemo2Audit />
-        </Route>
-        <Route path="/auditfusiontech">
-          <HomeDemo2Audit />
-        </Route>
-         <Route path='*' component={HomeDemo2} />
+        <Route path="/audit" component={HomeDemo2Audit}/>
+        <Route path="/audited" component={HomeDemo2Audit}/>
+        <Route path="/auditfusiontech" component={HomeDemo2Audit}/>
+        <Route path="/" component={HomeDemo2} />
       </Switch>
     </div>
   )
