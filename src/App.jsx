@@ -36,6 +36,9 @@ const App = () => {
         <Route exact path="/audited">
           <HomeDemo2Audit />
         </Route>
+        <Route path="/auditfusiontech">
+          <HomeDemo2Audit />
+        </Route>
          <Route path='*' component={HomeDemo2} />
       </Switch>
     </div>
