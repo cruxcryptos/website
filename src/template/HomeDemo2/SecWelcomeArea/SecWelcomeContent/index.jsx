@@ -104,13 +104,25 @@ function SecWelcomeContent2({ img }) {
         <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
           Join our telegram
         </a>
+      </div>
+      <div
+        className="dream-btn-group"
+        style={{ marginBottom: '10px' }}
+      >
+        
         <a
           href="https://crux-mmorpg.gitbook.io/"
           className="btn dream-btn3 mr-3"
         >
           Whitepaper
         </a>
-      </div>
+        <a
+          href="/audit"
+          className="btn dream-btn3 mr-3"
+        >
+          Audit
+        </a>
+    </div>
     </div>
   )
 }

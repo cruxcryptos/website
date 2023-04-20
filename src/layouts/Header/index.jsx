@@ -51,6 +51,7 @@ const Header = () => {
                     <li><a onClick={moveSmooth} href="#gameplay">GAMEPLAY</a></li>
                     <li><a onClick={moveSmooth} href="#services">tokenomics</a></li>
                     <li><a onClick={moveSmooth} href="#roadmap">Roadmap</a></li>
+                    <li><a style={{color:"#E6791B"}}href="/audit">AUDIT</a></li>
                     <li><a onClick={moveSmooth} href="#faqs">FAQs</a></li>
                     <li><a onClick={moveSmooth} href="#team">Team</a></li>
                   </ul>
