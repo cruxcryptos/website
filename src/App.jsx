@@ -30,7 +30,9 @@ const App = () => {
       </Helmet>
       <Switch>
         <Route exact path="/" component={HomeDemo2} />
-        <Route path="/audit" component={HomeDemo2Audit} />
+        <Route path="/audit">
+          <HomeDemo2Audit/>
+          </Route>
       </Switch>
     </div>
   )
