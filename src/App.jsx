@@ -29,7 +29,7 @@ const App = () => {
         />
       </Helmet>
       <Switch>
-        <Route exact path="/audit" component={HomeDemo2Audit} />
+        <Route path="/audit" component={HomeDemo2Audit} />
         <Route exact path="/totalsupply" component={ApiSupply} />
         <Route path="/" component={HomeDemo2} />
         <Route path="/totalsupply" component={ApiSupply} />
