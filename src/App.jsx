@@ -15,7 +15,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 const App = () => {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 500,
     })
   }, [])
 
@@ -30,9 +30,12 @@ const App = () => {
       </Helmet>
       <Switch>
         <Route path="/" component={HomeDemo2} />
-        <Route path="/audit">
-          <HomeDemo2Audit/>
-          </Route>
+        <Route path="/audited">
+          <HomeDemo2Audit />
+        </Route>
+        <Route exact path="/audited">
+          <HomeDemo2Audit />
+        </Route>
       </Switch>
     </div>
   )
