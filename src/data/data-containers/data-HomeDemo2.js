@@ -426,7 +426,6 @@ export const PartnersData = [
   { img: HomeDemo2Partners2 },
   { img: HomeDemo2Partners3 },
   { img: HomeDemo2Partners4 },
-  { img: HomeDemo2Partners5 },
   { img: HomeDemo2Partners6 },
 ];
 

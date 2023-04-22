@@ -98,8 +98,8 @@ function SecWelcomeContent2({ img }) {
         className="dream-btn-group"
         style={{ marginBottom: '10px' }}
       >
-        <a href="https://dx.app/dxsaleview?saleID=165&chain=BNB" className="btn dream-btn mr-3">
-          GO TO FAIRLAUNCH
+        <a href="https://pancakeswap.finance/swap?outputCurrency=0xD641156213ad80A007993a1D9cE80085414CFF39" className="btn dream-btn mr-3">
+          BUY NOW on PANCAKESWAP
         </a>
         <a href="https://t.me/CRUX_CRYPTOS" className="btn dream-btn mr-3">
           Join our telegram
@@ -110,6 +110,12 @@ function SecWelcomeContent2({ img }) {
         style={{ marginBottom: '10px' }}
       >
         
+        <a
+          href="https://www.dextools.io/app/en/bnb/pair-explorer/0x686dc6b3daacd24d1deec2418df9996704f75031"
+          className="btn dream-btn3 mr-3"
+        >
+          Chart
+        </a>
         <a
           href="https://crux-mmorpg.gitbook.io/"
           className="btn dream-btn3 mr-3"
