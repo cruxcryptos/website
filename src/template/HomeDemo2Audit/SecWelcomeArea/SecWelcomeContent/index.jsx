@@ -80,7 +80,7 @@ function SecWelcomeContent2({ img }) {
             <img src={img} width="24" height="24" alt="" />
           </span>
           <span className="integration-text" style={{color:'yellow'}}>
-            FAIRLAUNCH HAPPENING NOW
+          KYC AND AUDIT DONE
           </span>
         </div>
       </div>
