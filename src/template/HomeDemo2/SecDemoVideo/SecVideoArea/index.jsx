@@ -22,6 +22,7 @@ const SecVideoArea = ({ img }) => {
       style={{zIndex:'20'}}
     >
       <Embedvideo url={'https://www.youtube.com/watch?v=yKlM2DZaG1I'} />
+      <Embedvideo url={'https://www.youtube.com/watch?v=ykZ-u7zXzUo'} />
     </div>
   )
 }
